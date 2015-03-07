@@ -7,9 +7,9 @@
     <feature name="Vibration">
         <param name="android-package" value="org.apache.cordova.vibration.Vibration" />
     </feature>
-    <name>Hello World</name>
+    <name>Latte Factor</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Latte Factor helps you reduce the latte factor in your budget
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team

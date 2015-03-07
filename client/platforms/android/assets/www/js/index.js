@@ -55,19 +55,24 @@ Ext.application({
     launch: function() {
         Ext.create('Ext.tab.Panel', {
             fullscreen: true,
-            tabBarPosition: 'bottom',
-
+            tabBarPosition: 'top',
             items: [
                 {
-                    title: 'Home',
-                    iconCls: 'home',
-                    html: [
-                        '',
-                        'Welcome to Sencha Touch',
-                        'We\'re creating the Getting Started app, which demonstrates how ',
-                        'to use tabs, lists, and forms to create a simple app.',
-                        'Sencha Touch'
-                    ].join('')
+                    xtype: 'list',
+                    title: 'Activity',
+                    iconCls: 'list',
+                    fields: ['amount'],
+                    data: [{
+                        'amount': '$5.65'
+                    }, {
+                        'amount': '$4.23'
+                    }]
+                },
+                {
+                    xtype: 'panel',
+                    title: 'Progress',
+                    iconCls: 'speedometer2',
+                    html: 'In the last month, you\'ve saved $27.53'
                 }
             ]
         });
