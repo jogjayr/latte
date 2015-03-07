@@ -2,4 +2,3 @@
 
     cd server
     python __init__.py
-
