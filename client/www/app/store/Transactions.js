@@ -5,14 +5,7 @@ Ext.define('Latte_Factor.model.Transaction', {
     extend: 'Ext.data.Model',
     config: {
         fields: [
-            {name: 'account-id', type: 'string'},
-            {name: 'amount', type: 'int'},
-            {name: 'categorization', type: 'string'},
-            {name: 'is-pending', type: 'boolean'},
-            {name: 'merchant', type:  'string'},
-            {name: 'raw-merchant', type:  'string'},
-            {name: 'transaction-id', type:  'string'},
-            {name: 'transaction-time'}
+            'account-id', 'amount', 'categorization', 'is-pending', 'merchant', 'raw-merchant', 'transaction-id', 'transaction-time'
         ]
     }
 });
