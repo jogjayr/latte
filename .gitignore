@@ -3,3 +3,5 @@
 client/platforms/android/ant-build/
 client/platforms/
 client/plugins/
+*.dex
+*.dex.d

@@ -3,6 +3,7 @@
  * @author Jacky Nguyen <jacky@sencha.com>
  */
 (function() {
+    Ext.Loader.setConfig({ disableCaching:false });
     var head = document.head;
 
     function write(content) {
@@ -53,7 +54,7 @@
         window.Ext = {};
     }
     Ext.microloaded = true;
-
+    
     var filterPlatform = window.Ext.filterPlatform = function(platform) {
         var profileMatch = false,
             ua = navigator.userAgent,
