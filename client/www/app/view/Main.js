@@ -1,5 +1,12 @@
+/*global cordova*/
+/*global Ext*/
 'use strict';
+
+
 var transactions = Ext.create('Latte_Factor.store.Transactions', {});
+
+
+
 Ext.define('Latte_Factor.view.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'main',
@@ -10,49 +17,71 @@ Ext.define('Latte_Factor.view.Main', {
     config: {
         tabBarPosition: 'bottom',
 
-        items: [
-            {
-                title: 'Activity',
-                iconCls: 'list',
-                xtype: 'list',
-                styleHtmlContent: true,
-                scrollable: true,
-                store: transactions,
-                itemTpl: new Ext.XTemplate(
-                    '<div>{categorization/}</div>',
+        items: [{
+            title: 'Activity',
+            iconCls: 'list',
+            xtype: 'list',
+            styleHtmlContent: true,
+            scrollable: true,
+            store: transactions,
+            itemTpl: new Ext.XTemplate(
+                    '<div>{categorization}</div>',
                     '<tpl if="amount &lt; 0">',
                         '<div class="red">-${amount / -10000}</div>',
                     '</tpl>',
                     '<tpl if="amount &gt; 0">',
                         '<div class="green">${amount/10000}</div>',
                     '</tpl>')
-            },
-            {
-                title: 'Progress',
-                iconCls: 'calendar',
-                html: 'You saved $45.67 last month'
-            },
-            {
-                title: 'Settings',
-                iconCls: 'settings',
-                html: 'Here you would set your settings'
-            }
-        ]
+        }, {
+            title: 'Progress',
+            iconCls: 'calendar',
+            items: [{
+                xtype: 'button',
+                text: 'This will be hidden',
+                cls: 'hide',
+                listeners: {
+                    scope: this,
+                    'tap': function() {
+                        console.log('clicked on this invisible area');
+                        displayNotification();
+                    }
+                }
+            }]
+        }, {
+            title: 'Settings',
+            iconCls: 'settings',
+
+            items: [{
+                html: 'How ambitious are you?'
+            }, {
+                xtype: 'sliderfield',
+                label: 'Ambition',
+                minValue: 1,
+                maxValue: 3,
+                listeners: {
+                    scope: this,
+                    'change': function(data, slider) {
+                        user.set('ambition', slider.getValue()[0]);
+                        // console.log(data, slider.getValue(), data3);
+                    }
+                }
+            }, {}]
+        }]
     }
 });
 
+var notification;
 
 function displayNotification() {
     console.log('in displayNotification');
     var now = Date.now(),
-    _10_sec_from_now = new Date(now + 1*1000);
+        _10_sec_from_now = new Date(now + 10 * 1000);
 
-    cordova.plugins.notification.local.schedule({
-        id:    1,
-        title: 'Scheduled with delay',
-        text:  'Test Message 1',
-        at:    now,
-        // sound: sound
+    notification = cordova.plugins.notification.local.schedule({
+        id: 1,
+        title: 'Tap to save $5',
+        text: 'Are you buying coffee?',
+        at: _10_sec_from_now,
     });
 }
 
@@ -60,9 +89,46 @@ function failure() {
     console.log('in on failure')
     window.alert('could not get geo');
 }
+
+function showToast(text) {
+    setTimeout(function() {
+        window.plugins.toast.showLongCenter(text);
+    }, 100);
+}
+
 function onDeviceReady() {
     console.log('in onDeviceReady');
-    var watchId = navigator.geolocation.watchPosition(displayNotification, failure  );
+    cordova.plugins.notification.local.on('clear', function(notification) {
+        console.log('onclear', arguments);
+        var userAmbition = user.get('ambition');
+        if (userAmbition === 3) {
+            //place a phone call
+            showToast('I\'m sorry Dave, but I can\'t let you do that');
+            Ext.data.JsonP.request({
+                url: 'http://' + localIP  + ':5000/call-user?=' + user.get('type'),
+                params: {
+                    user: user.get('type')
+                },           
+            });
+        } else if (userAmbition === 2) {
+            showToast('You can do better. I believe in you');
+
+        } else {
+            showToast('Keep drinking those lattes you consumer sucka');
+        }
+    });
+
+    cordova.plugins.notification.local.on('cancel', function(notification) {
+        console.log('oncancel', arguments);
+    });
+
+    cordova.plugins.notification.local.on('click', function() {
+        Ext.Ajax.request({
+            url: 'http://'+localIP+':5000/save-latte?user=' + user.get('type'),
+        });
+        window.alert('Good choice Dave! Transferred $5 to your Vanguard account');
+    });
+    
 
 }
 document.addEventListener("deviceready", onDeviceReady, false);

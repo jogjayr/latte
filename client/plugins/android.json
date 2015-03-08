@@ -23,6 +23,10 @@
                         {
                             "xml": "<feature name=\"LocalNotification\"><param name=\"android-package\" value=\"de.appplant.cordova.plugin.localnotification.LocalNotification\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Toast\"><param name=\"android-package\" value=\"nl.xservices.plugins.Toast\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -97,6 +101,9 @@
             "PACKAGE_NAME": "com.phonegap.helloworld"
         },
         "de.appplant.cordova.plugin.local-notification": {
+            "PACKAGE_NAME": "com.phonegap.helloworld"
+        },
+        "nl.x-services.plugins.toast": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
         }
     },
