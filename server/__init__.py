@@ -1,13 +1,18 @@
 from flask import Flask
 from flask import jsonify
 from flask import request
+# from flask_cors import CORSimport datetime
 import re
-import datetime
+
+from utils import jsonp
 
 app = Flask(__name__)
 
+# cors = CORS(app)
+
 
 @app.route("/get-accounts", methods=['GET'])
+@jsonp
 def get_accounts():
     user = request.args.get('user')
     if user == 'poor':
@@ -20,8 +25,10 @@ def get_accounts():
     return jsonify(accounts)
 
 @app.route("/get-transactions", methods=['GET'])
+@jsonp
 def get_transactions():
     user = request.args.get('user')
+
     if user == 'poor':
         from user_poor import transactions
     elif user == 'rich':
@@ -113,6 +120,7 @@ def save_latte():
 @app.route("/")
 def hello():
     return "Hello World!"
+
 
 if __name__ == "__main__":
     app.run(debug=True)
