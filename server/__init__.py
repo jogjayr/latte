@@ -10,7 +10,7 @@ import plotly.plotly as plotly
 from plotly.graph_objs import Data, Scatter
 #from datetime import datetime
 import datetime
-
+import os.path
 
 
 app = Flask(__name__)
@@ -134,7 +134,7 @@ def call_user():
   PHONE_MESSAGE = ("<break time=\"0.5s\"/> Hello, we don't want to disturb you too much,<break time=\"0.5s\"/> " 
                  "but you asked us to help you save.<break time=\"1s\"/> "
                  "Are you sure you want that coffee?<break time=\"1s\"/> "
-                 "Perhaps you could pick one at your office instead <break time=\"0.5s\"/> "
+                 "Perhaps you could get one at your office instead <break time=\"0.5s\"/> "
                  "and take a nice walk in the park <break time=\"1s\"/>")
   
   url = 'https://api.nexmo.com/tts/json'
@@ -166,22 +166,15 @@ def get_savings_graph():
   x = [];
   y = [];
   cumulative = 0;
-  with open(saveFile, "r") as myfile:
-    for line in myfile:
-      saveItem = eval(line)
-      cumulative += saveItem["amount"];
-      x.append(saveItem["datetime"])
-      y.append(cumulative)
-      #print line
-      #print "%f" % saveItem["amount"]
-      #savedSoFar += saveItem["amount"]
   
+  if os.path.exists(saveFile):
+    with open(saveFile, "r") as myfile:
+      for line in myfile:
+        saveItem = eval(line)
+        cumulative += saveItem["amount"];
+        x.append(saveItem["datetime"])
+        y.append(cumulative)
   
-  #x = [datetime(year=2013, month=10, day=04),
-  #    datetime(year=2013, month=11, day=05),
-  #    datetime(year=2013, month=12, day=06)]
-  
-  #data = Data([Scatter(x=x,y=[1, 3, 6])])
   data = Data( [ Scatter(x=x,y=y) ] )
   plot_url = plotly.plot(data, filename='python-datetime', auto_open=False)
   return plot_url 
