@@ -18,7 +18,7 @@ Ext.define('Latte_Factor.store.Transactions', {
         model: 'Latte_Factor.model.Transaction',
         proxy: {
             type: 'jsonp',
-            url: 'http://10.90.1.151:5000/get-transactions',
+            url: 'http://192.168.1.68:5000/get-transactions',
             reader: {
                 type:'json',
                 rootProperty: 'transactions'

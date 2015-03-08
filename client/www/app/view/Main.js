@@ -1,7 +1,5 @@
-var transactions = Ext.create('Latte_Factor.store.Transactions', {
-
-
-});
+'use strict';
+var transactions = Ext.create('Latte_Factor.store.Transactions', {});
 Ext.define('Latte_Factor.view.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'main',
@@ -38,14 +36,27 @@ Ext.define('Latte_Factor.view.Main', {
 });
 
 
-var now = Date.now(),
-    _10_sec_from_now = new Date(now + 10*1000);
+function displayNotification() {
+    console.log('in displayNotification');
+    var now = Date.now(),
+    _10_sec_from_now = new Date(now + 1*1000);
 
-cordova.plugins.notification.local.schedule({
-    id:    1,
-    title: 'Scheduled with delay',
-    text:  'Test Message 1',
-    at:    _10_sec_from_now,
-    // sound: sound
-});
+    cordova.plugins.notification.local.schedule({
+        id:    1,
+        title: 'Scheduled with delay',
+        text:  'Test Message 1',
+        at:    now,
+        // sound: sound
+    });
+}
 
+function failure() {
+    console.log('in on failure')
+    window.alert('could not get geo');
+}
+function onDeviceReady() {
+    console.log('in onDeviceReady');
+    var watchId = navigator.geolocation.watchPosition(displayNotification, failure  );
+
+}
+document.addEventListener("deviceready", onDeviceReady, false);

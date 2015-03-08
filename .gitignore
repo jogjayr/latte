@@ -1,0 +1,5 @@
+*.pyc
+*.apk
+client/platforms/android/ant-build/
+client/platforms/
+client/plugins/
