@@ -13,6 +13,9 @@
     <feature name="LocalNotification">
         <param name="android-package" value="de.appplant.cordova.plugin.localnotification.LocalNotification" />
     </feature>
+    <feature name="Toast">
+        <param name="android-package" value="nl.xservices.plugins.Toast" />
+    </feature>
     <name>Latte Factor</name>
     <description>
         Latte Factor helps you reduce the latte factor in your budget
