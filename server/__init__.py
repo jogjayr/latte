@@ -152,7 +152,7 @@ def call_user():
   return "We may have called the user by this point";
 
 
-@app.route("/get-savings-graph", methods=['GET'])
+#@app.route("/get-savings-graph", methods=['GET'])
 def get_savings_graph():
   user = request.args.get('user')
   print "Generating graph for user: %s" % (user)
@@ -179,6 +179,7 @@ def get_savings_graph():
   return plot_url 
   
   
+@app.route("/get-savings-graph", methods=['GET'])
 @app.route("/get-investment-graph", methods=['GET'])
 def get_investment_graph():
   user = request.args.get('user')
