@@ -153,6 +153,7 @@ def call_user():
 
 
 #@app.route("/get-savings-graph", methods=['GET'])
+@jsonp
 def get_savings_graph():
   user = request.args.get('user')
   print "Generating graph for user: %s" % (user)
@@ -176,7 +177,7 @@ def get_savings_graph():
   
   data = Data( [ Scatter(x=x,y=y) ] )
   plot_url = plotly.plot(data, filename='python-datetime', auto_open=False)
-  return plot_url 
+  return jsonify({'url': plot_url })
   
   
 @app.route("/get-savings-graph", methods=['GET'])
