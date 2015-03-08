@@ -3,10 +3,13 @@ from flask import jsonify
 from flask import request
 # from flask_cors import CORSimport datetime
 import re
+import requests
 
 from utils import jsonp
 
 app = Flask(__name__)
+app.config.from_pyfile("config.ini")
+
 
 # cors = CORS(app)
 
@@ -115,6 +118,33 @@ def save_latte():
   
 
   return "Saved $%f" % savedSoFar
+
+@app.route("/call-user", methods=['GET'])
+def call_user():
+  api_key = app.config['NEXMO_API_KEY']
+  api_secret = app.config['NEXMO_API_SECRET']
+  num_to_call = app.config['TEST_PHONE_NUM']
+  num_times_repeat = app.config['NUM_REPEAT_CALLS']
+  PHONE_MESSAGE = ("<break time=\"0.5s\"/> Hello, we don't want to disturb you too much,<break time=\"0.5s\"/> " 
+                 "but you asked us to help you save.<break time=\"1s\"/> "
+                 "Are you sure you want that coffee?<break time=\"1s\"/> "
+                 "Perhaps you could pick one at your office instead <break time=\"0.5s\"/> "
+                 "and take a nice walk in the park <break time=\"1s\"/>")
+  
+  url = 'https://api.nexmo.com/tts/json'
+  payload = {
+              'api_key'   : api_key ,
+              'api_secret': api_secret , 
+              'to'        : num_to_call ,
+              'repeat'    : num_times_repeat ,
+              'text'      : PHONE_MESSAGE
+              }
+  
+  #r = requests.get('https://github.com/timeline.json')
+  r = requests.get(url, params=payload)
+  print r.json()
+  
+  return "We may have called the user by this point";
 
 
 @app.route("/")
