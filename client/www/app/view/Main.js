@@ -24,7 +24,7 @@ Ext.define('Latte_Factor.view.Main', {
                         '<div class="red">-${amount / -10000}</div>',
                     '</tpl>',
                     '<tpl if="amount &gt; 0">',
-                        '<div class="red">${amount/10000}</div>',
+                        '<div class="green">${amount/10000}</div>',
                     '</tpl>')
             },
             {

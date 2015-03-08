@@ -7,7 +7,7 @@ import re
 import requests
 from utils import jsonp
 import plotly.plotly as plotly
-from plotly.graph_objs import *
+from plotly.graph_objs import Data, Scatter
 #from datetime import datetime
 import datetime
 import os.path
