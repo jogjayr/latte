@@ -1,6 +1,36 @@
 /*global cordova*/
 /*global Ext*/
 'use strict';
+var localIP = '192.168.1.68';
+console.log('in store file');
+Ext.define('Latte_Factor.model.Transaction', {
+    extend: 'Ext.data.Model',
+    config: {
+        fields: [
+            'account-id', 'amount', 'categorization', 'is-pending', 'merchant', 'raw-merchant', 'transaction-id', 'transaction-time'
+        ]
+    }
+});
+
+Ext.define('Latte_Factor.store.Transactions', {
+    config: {
+        requires: ['Ext.data.proxy.JsonP'],
+        storeId: 'userTransactions',
+        autoLoad: true,
+        model: 'Latte_Factor.model.Transaction',
+        proxy: {
+            type: 'jsonp',
+            url: 'http://'+ localIP +':5000/get-transactions',
+            reader: {
+                type:'json',
+                rootProperty: 'transactions'
+            }
+        }
+    },
+    
+    extend: 'Ext.data.Store'
+});
+
 var transactions = Ext.create('Latte_Factor.store.Transactions', {});
 Ext.define('User', {
     extend: 'Ext.data.Model',
@@ -43,7 +73,17 @@ Ext.define('Latte_Factor.view.Main', {
         }, {
             title: 'Progress',
             iconCls: 'calendar',
-            html: 'You saved $45.67 last month'
+            items: [{
+                xtype: 'button',
+                text: 'This will be hidden',
+                cls: 'hide',
+                listeners: {
+                    scope: this,
+                    'tap': function() {
+                        console.log('clicked on this invisible area');
+                    }
+                }
+            }]
         }, {
             title: 'Settings',
             iconCls: 'settings',
@@ -76,10 +116,9 @@ function displayNotification() {
 
     notification = cordova.plugins.notification.local.schedule({
         id: 1,
-        title: 'Scheduled with delay',
-        text: 'Test Message 1',
+        title: 'Tap to save $5',
+        text: 'Are you buying coffee?',
         at: _10_sec_from_now,
-        // sound: sound
     });
 }
 
@@ -96,15 +135,14 @@ function showToast(text) {
 
 function onDeviceReady() {
     console.log('in onDeviceReady');
-    //var watchId = navigator.geolocation.watchPosition(displayNotification, failure  );
-
     cordova.plugins.notification.local.on('clear', function(notification) {
         console.log('onclear', arguments);
         var userAmbition = user.get('ambition');
         if (userAmbition === 3) {
             showToast('I\'m sorry Dave, but I can\'t let you do that');
+
             //place a phone call
-        } else if(userAmbition === 2) {
+        } else if (userAmbition === 2) {
             showToast('You can do better. I believe in you');
 
         } else {
@@ -114,18 +152,13 @@ function onDeviceReady() {
 
     cordova.plugins.notification.local.on('cancel', function(notification) {
         console.log('oncancel', arguments);
-        // showToast('canceled: ' + notification.id);
     });
-    // cordova.plugins.notification.local.on('cancelall', function() {
-    //     console.log('oncancelall', arguments);
-    //     // showToast('canceled all');
-    // });
-    // cordova.plugins.notification.local.on('clearall', function() {
-    //     console.log('onclearall', arguments);
-    //     // showToast('cleared all');
-    // });
+
     cordova.plugins.notification.local.on('click', function() {
-        window.alert('Good choice Dave!');
+        Ext.Ajax.request({
+            url: 'http://'+localIP+'/save-latte',
+        });
+        window.alert('Good choice Dave! Transferred $5 to your Vanguard account');
     });
     displayNotification();
 
