@@ -35,7 +35,16 @@ Ext.define('Latte_Factor.view.Main', {
             {
                 title: 'Settings',
                 iconCls: 'settings',
-                html: 'Here you would set your settings'
+                
+                items: [{
+                    html: 'How ambitious are you?'
+                }, {
+                    xtype: 'sliderfield',
+                    label: 'Ambition',
+                    value: 2,
+                    minValue: 1,
+                    maxValue: 3
+                }, {}]
             }
         ]
     }
