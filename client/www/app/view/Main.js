@@ -20,13 +20,18 @@ Ext.define('Latte_Factor.view.Main', {
                 styleHtmlContent: true,
                 scrollable: true,
                 store: transactions,
-                itemTpl: 'You spent {amount}'
+                itemTpl: '<div>{categorization}</div><div>{amount}</div>'
 
             },
             {
                 title: 'Progress',
                 iconCls: 'speedometer2',
                 html: 'You saved $45.67 last month'
+            },
+            {
+                title: 'Settings',
+                iconCls: 'settings',
+                html: 'Here you would set your settings'
             }
         ]
     }

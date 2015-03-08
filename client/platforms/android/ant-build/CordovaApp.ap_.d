@@ -53,7 +53,9 @@
 /Users/jayraj/personal/latte factor/client/platforms/android/assets/www/app/controller/Readme.md \
 /Users/jayraj/personal/latte factor/client/platforms/android/assets/www/app/form/Readme.md \
 /Users/jayraj/personal/latte factor/client/platforms/android/assets/www/app/model/Readme.md \
+/Users/jayraj/personal/latte factor/client/platforms/android/assets/www/app/model/Transaction.js \
 /Users/jayraj/personal/latte factor/client/platforms/android/assets/www/app/store/Readme.md \
+/Users/jayraj/personal/latte factor/client/platforms/android/assets/www/app/store/Transactions.js \
 /Users/jayraj/personal/latte factor/client/platforms/android/assets/www/app/view/Main.js \
 /Users/jayraj/personal/latte factor/client/platforms/android/assets/www/app/view/Readme.md \
 /Users/jayraj/personal/latte factor/client/platforms/android/assets/www/build/temp \
