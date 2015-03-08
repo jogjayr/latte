@@ -5,3 +5,4 @@ client/platforms/
 client/plugins/
 *.dex
 *.dex.d
+client/www/resources/sass/.sass-cache/

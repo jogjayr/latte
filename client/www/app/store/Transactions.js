@@ -1,8 +1,8 @@
 /*global Ext*/
 'use strict';
 console.log('in store file');
-var localIP = '192.168.1.68';
-var localIP = '192.168.1.68';
+var localIP = '10.90.1.151';
+
 console.log('in store file');
 
 Ext.define('Latte_Factor.model.User', {
