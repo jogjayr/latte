@@ -1,2 +1,2240 @@
-accounts = {"accounts":[{"account-id":"nonce:comfy-cc/comfy","legacy-institution-id":42069000,"institution-name":"NYBE (Not Your Bank Either)","active":True,"account-name":"Premium Credit Card","balance":-40000000,"account-type":"credit-card","last-digits":"2364"},{"account-id":"nonce:comfy-checking/comfy","legacy-institution-id":42069000,"institution-name":"NYBE (Not Your Bank Either)","active":true,"account-name":"Platinum Checking","balance":130000000,"account-type":"asset","last-digits":"8124"}],"error":"no-error"}
-transactions = {"transactions":[{"transaction-id":"1425687000000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Krispy Kreme Donuts","merchant":"Krispy Kreme Donuts","is-pending":False,"transaction-time":"2015-03-03T12:49:00.000Z","amount":-44000,"categorization":"Unknown"},{"transaction-id":"1425679320000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"SERVICE FEE","merchant":"Service Fee","is-pending":False,"transaction-time":"2015-03-05T18:58:00.000Z","amount":-48000,"categorization":"Unknown"},{"transaction-id":"1425663000000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"REDROBIN","merchant":"Redrobin","is-pending":False,"transaction-time":"2015-03-05T18:28:00.000Z","amount":-189200,"categorization":"Unknown"},{"transaction-id":"1425618720000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"NETFLIX.COM","merchant":"Netflix.com","is-pending":False,"transaction-time":"2015-03-05T01:05:00.000Z","amount":-79900,"categorization":"Unknown"},{"transaction-id":"1425608100000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"CREDIT CARD PAYMENT","merchant":"Credit Card Payment","is-pending":False,"transaction-time":"2015-03-03T05:58:00.000Z","amount":5194500,"categorization":"Unknown"},{"transaction-id":"1425603780000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"WWW.ITUNES.COM/BILL","merchant":"WWW.iTunes.com/Bill","is-pending":False,"transaction-time":"2015-03-04T17:40:00.000Z","amount":-88800,"categorization":"Unknown"},{"transaction-id":"1425540000000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Krispy Kreme Donuts","merchant":"Krispy Kreme Donuts","is-pending":False,"transaction-time":"2015-03-04T22:43:00.000Z","amount":-106800,"categorization":"Unknown"},{"transaction-id":"1425523920000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"KMART 7777","merchant":"Kmart 7777","is-pending":False,"transaction-time":"2015-03-02T23:56:00.000Z","amount":-38100,"categorization":"Unknown"},{"transaction-id":"1425469920000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Amazon.com AMZN.COM/BILLWA","merchant":"Amazon.com Amzn.com/Billwa","is-pending":False,"transaction-time":"2015-03-03T22:36:00.000Z","amount":-425900,"categorization":"Unknown"},{"transaction-id":"1425452880000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"CHECK","merchant":"Check","is-pending":False,"transaction-time":"2015-03-03T00:56:00.000Z","amount":-13642900,"categorization":"Unknown"},{"transaction-id":"1425448800000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"TARGET","merchant":"Target","is-pending":False,"transaction-time":"2015-02-27T02:07:00.000Z","amount":-44800,"categorization":"Unknown"},{"transaction-id":"1425442800000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"CC PAYMENT","merchant":"CC Payment","is-pending":False,"transaction-time":"2015-03-03T07:22:00.000Z","amount":-5194500,"categorization":"Unknown"},{"transaction-id":"1425402180000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DOMINO'S 7815","merchant":"Domino's 7815","is-pending":False,"transaction-time":"2015-03-03T02:06:00.000Z","amount":-152900,"categorization":"Unknown"},{"transaction-id":"1425368100000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"ZENPAYROLL","merchant":"Zenpayroll","is-pending":False,"transaction-time":"2015-02-28T14:19:00.000Z","amount":17151700,"categorization":"Unknown"},{"transaction-id":"1425349380000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Krispy Kreme Donuts","merchant":"Krispy Kreme Donuts","is-pending":False,"transaction-time":"2015-02-28T00:35:00.000Z","amount":-49500,"categorization":"Unknown"},{"transaction-id":"1425307260000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"SHOPTRN*Thule","merchant":"Shoptrn*Thule","is-pending":False,"transaction-time":"2015-03-02T07:45:00.000Z","amount":-467500,"categorization":"Unknown"},{"transaction-id":"1425300720000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"CHECKCARD 1103 MCDONALD'S","merchant":"McDonald's","is-pending":False,"transaction-time":"2015-02-27T21:40:00.000Z","amount":-234500,"categorization":"Unknown"},{"transaction-id":"1425294240000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Spotify.com","merchant":"Spotify.com","is-pending":False,"transaction-time":"2015-03-01T08:45:00.000Z","amount":-99900,"categorization":"Unknown"},{"transaction-id":"1425274080000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"ATM WITHDRAWAL","merchant":"ATM Withdrawal","is-pending":False,"transaction-time":"2015-02-28T11:29:00.000Z","amount":-820000,"categorization":"Unknown"},{"transaction-id":"1425229260000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"SWEENEYS CHEVROLET","merchant":"Sweeneys Chevrolet","is-pending":False,"transaction-time":"2015-02-26T20:50:00.000Z","amount":-2418700,"categorization":"Unknown"},{"transaction-id":"1425180540000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DOLLAR TREE #02976 90","merchant":"Dollar Tree #02976 90","is-pending":False,"transaction-time":"2015-02-28T11:26:00.000Z","amount":-93100,"categorization":"Unknown"},{"transaction-id":"1425168120000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"THE UPS STORE","merchant":"The Ups Store","is-pending":False,"transaction-time":"2015-02-27T20:35:00.000Z","amount":-644400,"categorization":"Unknown"},{"transaction-id":"1425161220000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"QDOBA","merchant":"Qdoba","is-pending":False,"transaction-time":"2015-02-24T19:01:00.000Z","amount":-63200,"categorization":"Unknown"},{"transaction-id":"1425142260000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"KOHL'S #0323","merchant":"Kohl's #0323","is-pending":False,"transaction-time":"2015-02-28T15:43:00.000Z","amount":-269200,"categorization":"Unknown"},{"transaction-id":"1425103320000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DUNKIN #336784","merchant":"Dunkin #336784","is-pending":False,"transaction-time":"2015-02-27T15:00:00.000Z","amount":-60200,"categorization":"Unknown"},{"transaction-id":"1425082980000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"NORDSTROM RACK #0474","merchant":"Nordstrom Rack #0474","is-pending":False,"transaction-time":"2015-02-27T21:37:00.000Z","amount":-1829600,"categorization":"Unknown"},{"transaction-id":"1425051240000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Card Purchase BUFFALO WILD WINGS","merchant":"Buffalo Wild Wings","is-pending":False,"transaction-time":"2015-02-27T01:17:00.000Z","amount":-54300,"categorization":"Unknown"},{"transaction-id":"1424989560000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"COSTCO","merchant":"Costco","is-pending":False,"transaction-time":"2015-02-26T03:29:00.000Z","amount":-567200,"categorization":"Unknown"},{"transaction-id":"1424970600000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"BURGER KING","merchant":"Burger King","is-pending":False,"transaction-time":"2015-02-24T21:39:00.000Z","amount":-181400,"categorization":"Unknown"},{"transaction-id":"1424957220000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Krispy Kreme Donuts","merchant":"Krispy Kreme Donuts","is-pending":False,"transaction-time":"2015-02-24T14:23:00.000Z","amount":-198400,"categorization":"Unknown"},{"transaction-id":"1424940480000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"KMART 7777","merchant":"Kmart 7777","is-pending":False,"transaction-time":"2015-02-24T17:58:00.000Z","amount":-31600,"categorization":"Unknown"},{"transaction-id":"1424781060000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DOLLAR GENERAL 8286","merchant":"Dollar General 8286","is-pending":False,"transaction-time":"2015-02-21T13:44:00.000Z","amount":-75500,"categorization":"Unknown"},{"transaction-id":"1424740080000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DUNKIN #336784","merchant":"Dunkin #336784","is-pending":False,"transaction-time":"2015-02-21T08:23:00.000Z","amount":-55800,"categorization":"Unknown"},{"transaction-id":"1424649720000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"POS PUR FROM BARNESNOBLE 13800","merchant":"From Barnesnoble 13800","is-pending":False,"transaction-time":"2015-02-20T19:41:00.000Z","amount":-134500,"categorization":"Unknown"},{"transaction-id":"1424640120000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DAIRY QUEEN","merchant":"Dairy Queen","is-pending":False,"transaction-time":"2015-02-21T03:39:00.000Z","amount":-240300,"categorization":"Unknown"},{"transaction-id":"1424541600000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"BURGER KING","merchant":"Burger King","is-pending":False,"transaction-time":"2015-02-16T22:31:00.000Z","amount":-170000,"categorization":"Unknown"},{"transaction-id":"1424337840000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"SUNOCO 0299792200","merchant":"Sunoco","is-pending":False,"transaction-time":"2015-02-14T03:15:00.000Z","amount":-93700,"categorization":"Unknown"},{"transaction-id":"1424246400000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"STEAMGAMES.COM","merchant":"Steamgames.com","is-pending":False,"transaction-time":"2015-02-17T15:13:00.000Z","amount":-115900,"categorization":"Unknown"},{"transaction-id":"1424229180000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"POS PUR FROM BARNESNOBLE 13800","merchant":"From Barnesnoble 13800","is-pending":False,"transaction-time":"2015-02-17T04:32:00.000Z","amount":-442400,"categorization":"Unknown"},{"transaction-id":"1424198040000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DUNKIN #336784","merchant":"Dunkin #336784","is-pending":False,"transaction-time":"2015-02-17T11:12:00.000Z","amount":-76700,"categorization":"Unknown"},{"transaction-id":"1424170320000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"4917 SONIC DRIVE IN #2545","merchant":"Sonic Drive In #2545","is-pending":False,"transaction-time":"2015-02-15T21:07:00.000Z","amount":-164400,"categorization":"Unknown"},{"transaction-id":"1424157840000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DUNKIN #336784","merchant":"Dunkin #336784","is-pending":False,"transaction-time":"2015-02-15T03:55:00.000Z","amount":-63200,"categorization":"Unknown"},{"transaction-id":"1424097660000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Amazon.com AMZN.COM/BILLWA","merchant":"Amazon.com Amzn.com/Billwa","is-pending":False,"transaction-time":"2015-02-15T11:59:00.000Z","amount":-220700,"categorization":"Unknown"},{"transaction-id":"1424089380000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"PAYPAL           ECHECK     J222","merchant":"Paypal Echeck J222","is-pending":False,"transaction-time":"2015-02-11T10:13:00.000Z","amount":-533400,"categorization":"Unknown"},{"transaction-id":"1424070000000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"KROGER LIMITED P 2009","merchant":"Kroger Limited P 2009","is-pending":False,"transaction-time":"2015-02-15T03:35:00.000Z","amount":-722200,"categorization":"Unknown"},{"transaction-id":"1424035860000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"FIVE GUYS 1248","merchant":"Five Guys 1248","is-pending":False,"transaction-time":"2015-02-14T18:08:00.000Z","amount":-127500,"categorization":"Unknown"},{"transaction-id":"1424035260000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"ZENPAYROLL","merchant":"Zenpayroll","is-pending":False,"transaction-time":"2015-02-13T19:07:00.000Z","amount":17020200,"categorization":"Unknown"},{"transaction-id":"1424009520000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"CVS 00466 0046 PURCHASE CVS","merchant":"CVS 00466 0046 Purchase CVS","is-pending":False,"transaction-time":"2015-02-14T06:23:00.000Z","amount":-62500,"categorization":"Unknown"},{"transaction-id":"1423954020000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Krispy Kreme Donuts","merchant":"Krispy Kreme Donuts","is-pending":False,"transaction-time":"2015-02-13T07:59:00.000Z","amount":-58400,"categorization":"Unknown"},{"transaction-id":"1423944300000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"4917 SUBWAY","merchant":"Subway","is-pending":False,"transaction-time":"2015-02-13T20:56:00.000Z","amount":-89700,"categorization":"Unknown"},{"transaction-id":"1423929000000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Krispy Kreme Donuts","merchant":"Krispy Kreme Donuts","is-pending":False,"transaction-time":"2015-02-13T12:22:00.000Z","amount":-262000,"categorization":"Unknown"},{"transaction-id":"1423910340000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Wal-Mart Super Center","merchant":"Wal-Mart Super Center","is-pending":False,"transaction-time":"2015-02-12T21:58:00.000Z","amount":-3797300,"categorization":"Unknown"},{"transaction-id":"1423895700000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Wal-Mart Super Center","merchant":"Wal-Mart Super Center","is-pending":False,"transaction-time":"2015-02-13T17:22:00.000Z","amount":-523000,"categorization":"Unknown"},{"transaction-id":"1423855200000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"WMSUPERCENTER","merchant":"Wmsupercenter","is-pending":False,"transaction-time":"2015-02-10T21:08:00.000Z","amount":-44800,"categorization":"Unknown"},{"transaction-id":"1423825920000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"STEAMGAMES.COM","merchant":"Steamgames.com","is-pending":False,"transaction-time":"2015-02-13T05:06:00.000Z","amount":-48800,"categorization":"Unknown"},{"transaction-id":"1423804560000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DUNKIN #336784","merchant":"Dunkin #336784","is-pending":False,"transaction-time":"2015-02-12T10:49:00.000Z","amount":-46800,"categorization":"Unknown"},{"transaction-id":"1423799580000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"AT&T BILL PAYMENT","merchant":"At&T Bill Payment","is-pending":False,"transaction-time":"2015-02-08T19:32:00.000Z","amount":-860800,"categorization":"Unknown"},{"transaction-id":"1423732320000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"REDROBIN","merchant":"Redrobin","is-pending":False,"transaction-time":"2015-02-11T15:09:00.000Z","amount":-48100,"categorization":"Unknown"},{"transaction-id":"1423697280000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"LOWE'S #1186","merchant":"Lowe's #1186","is-pending":False,"transaction-time":"2015-02-09T04:57:00.000Z","amount":-284000,"categorization":"Unknown"},{"transaction-id":"1423595220000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"CHECK","merchant":"Check","is-pending":False,"transaction-time":"2015-02-07T14:26:00.000Z","amount":-3023900,"categorization":"Unknown"},{"transaction-id":"1423563300000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"ATM WITHDRAWAL","merchant":"ATM Withdrawal","is-pending":False,"transaction-time":"2015-02-09T05:19:00.000Z","amount":-820000,"categorization":"Unknown"},{"transaction-id":"1423359120000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"NETFLIX.COM","merchant":"Netflix.com","is-pending":False,"transaction-time":"2015-02-04T22:33:00.000Z","amount":-79900,"categorization":"Unknown"},{"transaction-id":"1423315980000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"KROGER LIMITED P 2009","merchant":"Kroger Limited P 2009","is-pending":False,"transaction-time":"2015-02-05T06:28:00.000Z","amount":-445900,"categorization":"Unknown"},{"transaction-id":"1423314780000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DUNKIN #336784","merchant":"Dunkin #336784","is-pending":False,"transaction-time":"2015-02-06T01:21:00.000Z","amount":-71500,"categorization":"Unknown"},{"transaction-id":"1423250580000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"SUNOCO 0299792200","merchant":"Sunoco","is-pending":False,"transaction-time":"2015-02-03T13:22:00.000Z","amount":-37200,"categorization":"Unknown"},{"transaction-id":"1423239360000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DAIRY QUEEN","merchant":"Dairy Queen","is-pending":False,"transaction-time":"2015-02-06T02:42:00.000Z","amount":-320800,"categorization":"Unknown"},{"transaction-id":"1423168380000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"BEST BUY #281","merchant":"Best Buy #281","is-pending":False,"transaction-time":"2015-02-02T10:40:00.000Z","amount":-3137100,"categorization":"Unknown"},{"transaction-id":"1423077060000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"GOODWILL","merchant":"Goodwill","is-pending":False,"transaction-time":"2015-02-02T16:07:00.000Z","amount":-429800,"categorization":"Unknown"},{"transaction-id":"1423073820000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"CC PAYMENT","merchant":"CC Payment","is-pending":False,"transaction-time":"2015-02-02T21:44:00.000Z","amount":-5194500,"categorization":"Unknown"},{"transaction-id":"1423024440000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"H&M","merchant":"H&M","is-pending":False,"transaction-time":"2015-02-04T02:58:00.000Z","amount":-25500,"categorization":"Unknown"},{"transaction-id":"1423023600000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Krispy Kreme Donuts","merchant":"Krispy Kreme Donuts","is-pending":False,"transaction-time":"2015-02-03T05:01:00.000Z","amount":-19600,"categorization":"Unknown"},{"transaction-id":"1423017240000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DOMINO'S 7815","merchant":"Domino's 7815","is-pending":False,"transaction-time":"2015-02-02T15:11:00.000Z","amount":-64200,"categorization":"Unknown"},{"transaction-id":"1423001100000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"CREDIT CARD PAYMENT","merchant":"Credit Card Payment","is-pending":False,"transaction-time":"2015-02-03T05:28:00.000Z","amount":5194500,"categorization":"Unknown"},{"transaction-id":"1422958380000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"ATM WITHDRAWAL","merchant":"ATM Withdrawal","is-pending":False,"transaction-time":"2015-02-01T23:08:00.000Z","amount":-820000,"categorization":"Unknown"},{"transaction-id":"1422951600000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Spotify.com","merchant":"Spotify.com","is-pending":False,"transaction-time":"2015-02-02T14:55:00.000Z","amount":-99900,"categorization":"Unknown"},{"transaction-id":"1422948300000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"CHECK","merchant":"Check","is-pending":False,"transaction-time":"2015-02-01T11:37:00.000Z","amount":-13642900,"categorization":"Unknown"},{"transaction-id":"1422873060000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Krispy Kreme Donuts","merchant":"Krispy Kreme Donuts","is-pending":False,"transaction-time":"2015-01-31T03:27:00.000Z","amount":-134800,"categorization":"Unknown"},{"transaction-id":"1422850680000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Starbucks","merchant":"Starbucks","is-pending":False,"transaction-time":"2015-01-31T08:11:00.000Z","amount":-42400,"categorization":"Unknown"},{"transaction-id":"1422806520000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DOMINO'S 7815","merchant":"Domino's 7815","is-pending":False,"transaction-time":"2015-02-01T12:17:00.000Z","amount":-48600,"categorization":"Unknown"},{"transaction-id":"1422684840000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"KROGER LIMITED P 2009","merchant":"Kroger Limited P 2009","is-pending":False,"transaction-time":"2015-01-30T23:32:00.000Z","amount":-331400,"categorization":"Unknown"},{"transaction-id":"1422678540000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"FIVE GUYS 1248","merchant":"Five Guys 1248","is-pending":False,"transaction-time":"2015-01-28T21:23:00.000Z","amount":-83000,"categorization":"Unknown"},{"transaction-id":"1422478140000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Krispy Kreme Donuts","merchant":"Krispy Kreme Donuts","is-pending":False,"transaction-time":"2015-01-27T04:59:00.000Z","amount":-236700,"categorization":"Unknown"},{"transaction-id":"1422430500000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"WWW.ITUNES.COM/BILL","merchant":"WWW.iTunes.com/Bill","is-pending":False,"transaction-time":"2015-01-26T11:15:00.000Z","amount":-28400,"categorization":"Unknown"},{"transaction-id":"1422421920000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DOMINO'S 7815","merchant":"Domino's 7815","is-pending":False,"transaction-time":"2015-01-25T08:54:00.000Z","amount":-213400,"categorization":"Unknown"},{"transaction-id":"1422388800000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"KROGER LIMITED P 2009","merchant":"Kroger Limited P 2009","is-pending":False,"transaction-time":"2015-01-27T19:32:00.000Z","amount":-292500,"categorization":"Unknown"},{"transaction-id":"1422382620000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"TARGET","merchant":"Target","is-pending":False,"transaction-time":"2015-01-26T04:47:00.000Z","amount":-34000,"categorization":"Unknown"},{"transaction-id":"1422312780000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"SWEENEYS CHEVROLET","merchant":"Sweeneys Chevrolet","is-pending":False,"transaction-time":"2015-01-26T13:02:00.000Z","amount":-2418700,"categorization":"Unknown"},{"transaction-id":"1422305880000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"TACO BELL 021394","merchant":"Taco Bell 021394","is-pending":False,"transaction-time":"2015-01-26T04:08:00.000Z","amount":-111400,"categorization":"Unknown"},{"transaction-id":"1422231900000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"FUEL CITY","merchant":"Fuel City","is-pending":False,"transaction-time":"2015-01-25T18:37:00.000Z","amount":-169700,"categorization":"Unknown"},{"transaction-id":"1422207120000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"SERVICE FEE","merchant":"Service Fee","is-pending":False,"transaction-time":"2015-01-25T00:35:00.000Z","amount":-43700,"categorization":"Unknown"},{"transaction-id":"1422206040000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Krispy Kreme Donuts","merchant":"Krispy Kreme Donuts","is-pending":False,"transaction-time":"2015-01-24T22:53:00.000Z","amount":-132400,"categorization":"Unknown"},{"transaction-id":"1422157980000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"BURGER KING","merchant":"Burger King","is-pending":False,"transaction-time":"2015-01-24T12:40:00.000Z","amount":-220600,"categorization":"Unknown"},{"transaction-id":"1422150720000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"PANDA EXPRESS 2267","merchant":"Panda Express 2267","is-pending":False,"transaction-time":"2015-01-23T19:56:00.000Z","amount":-76500,"categorization":"Unknown"},{"transaction-id":"1422091500000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"7-ELEVEN 23853","merchant":"7-Eleven 23853","is-pending":False,"transaction-time":"2015-01-22T06:17:00.000Z","amount":-187800,"categorization":"Unknown"},{"transaction-id":"1422080820000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"ZENPAYROLL","merchant":"Zenpayroll","is-pending":False,"transaction-time":"2015-01-22T20:05:00.000Z","amount":16939300,"categorization":"Unknown"},{"transaction-id":"1421777460000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Krispy Kreme Donuts","merchant":"Krispy Kreme Donuts","is-pending":False,"transaction-time":"2015-01-17T08:31:00.000Z","amount":-43000,"categorization":"Unknown"},{"transaction-id":"1421736840000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"POS PURCHASE - GAMESTOP 5732","merchant":"Gamestop 5732","is-pending":False,"transaction-time":"2015-01-16T22:48:00.000Z","amount":-73500,"categorization":"Unknown"},{"transaction-id":"1421658360000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"TARGET","merchant":"Target","is-pending":False,"transaction-time":"2015-01-18T10:26:00.000Z","amount":-75700,"categorization":"Unknown"},{"transaction-id":"1421563800000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"TACO BELL 021394","merchant":"Taco Bell 021394","is-pending":False,"transaction-time":"2015-01-17T00:42:00.000Z","amount":-151800,"categorization":"Unknown"},{"transaction-id":"1421558760000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"JAMBA JUICE #689","merchant":"Jamba Juice #689","is-pending":False,"transaction-time":"2015-01-15T08:57:00.000Z","amount":-124200,"categorization":"Unknown"},{"transaction-id":"1421541000000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"FUEL CITY","merchant":"Fuel City","is-pending":False,"transaction-time":"2015-01-15T20:38:00.000Z","amount":-372100,"categorization":"Unknown"},{"transaction-id":"1421492040000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"BURGER KING","merchant":"Burger King","is-pending":False,"transaction-time":"2015-01-14T22:38:00.000Z","amount":-50600,"categorization":"Unknown"},{"transaction-id":"1421464920000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DUNKIN #336784","merchant":"Dunkin #336784","is-pending":False,"transaction-time":"2015-01-16T19:55:00.000Z","amount":-218900,"categorization":"Unknown"},{"transaction-id":"1421426400000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"ATM WITHDRAWAL","merchant":"ATM Withdrawal","is-pending":False,"transaction-time":"2015-01-12T11:18:00.000Z","amount":-800000,"categorization":"Unknown"},{"transaction-id":"1421328780000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"4917 SONIC DRIVE IN #2545","merchant":"Sonic Drive In #2545","is-pending":False,"transaction-time":"2015-01-15T07:01:00.000Z","amount":-112800,"categorization":"Unknown"},{"transaction-id":"1421299140000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"FIVE GUYS 1248","merchant":"Five Guys 1248","is-pending":False,"transaction-time":"2015-01-09T22:46:00.000Z","amount":-59900,"categorization":"Unknown"},{"transaction-id":"1421149140000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"REDROBIN","merchant":"Redrobin","is-pending":False,"transaction-time":"2015-01-11T22:49:00.000Z","amount":-158500,"categorization":"Unknown"},{"transaction-id":"1421093760000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DUNKIN #336784","merchant":"Dunkin #336784","is-pending":False,"transaction-time":"2015-01-10T07:27:00.000Z","amount":-38200,"categorization":"Unknown"},{"transaction-id":"1421059020000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DUNKIN #336784","merchant":"Dunkin #336784","is-pending":False,"transaction-time":"2015-01-07T14:07:00.000Z","amount":-88800,"categorization":"Unknown"},{"transaction-id":"1420973580000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"NAIL LOVERS","merchant":"Nail Lovers","is-pending":False,"transaction-time":"2015-01-09T02:07:00.000Z","amount":-590200,"categorization":"Unknown"},{"transaction-id":"1420973100000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Wal-Mart Super Center","merchant":"Wal-Mart Super Center","is-pending":False,"transaction-time":"2015-01-05T10:10:00.000Z","amount":-3339200,"categorization":"Unknown"},{"transaction-id":"1420966680000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"AT&T BILL PAYMENT","merchant":"At&T Bill Payment","is-pending":False,"transaction-time":"2015-01-08T17:49:00.000Z","amount":-860800,"categorization":"Unknown"},{"transaction-id":"1420937580000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"ZENPAYROLL","merchant":"Zenpayroll","is-pending":False,"transaction-time":"2015-01-09T22:41:00.000Z","amount":17126000,"categorization":"Unknown"},{"transaction-id":"1420884180000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"COSTCO","merchant":"Costco","is-pending":False,"transaction-time":"2015-01-07T10:28:00.000Z","amount":-218400,"categorization":"Unknown"},{"transaction-id":"1420856940000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"7-ELEVEN 23853","merchant":"7-Eleven 23853","is-pending":False,"transaction-time":"2015-01-06T00:17:00.000Z","amount":-94500,"categorization":"Unknown"},{"transaction-id":"1420820040000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"CVS 00466 0046 PURCHASE CVS","merchant":"CVS 00466 0046 Purchase CVS","is-pending":False,"transaction-time":"2015-01-09T10:53:00.000Z","amount":-38200,"categorization":"Unknown"},{"transaction-id":"1420734720000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"7-ELEVEN 23853","merchant":"7-Eleven 23853","is-pending":False,"transaction-time":"2015-01-05T17:13:00.000Z","amount":-83000,"categorization":"Unknown"},{"transaction-id":"1420696200000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DUNKIN #336784","merchant":"Dunkin #336784","is-pending":False,"transaction-time":"2015-01-05T17:24:00.000Z","amount":-62900,"categorization":"Unknown"},{"transaction-id":"1420606140000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DELTA","merchant":"Delta","is-pending":False,"transaction-time":"2015-01-05T05:36:00.000Z","amount":-4928700,"categorization":"Unknown"},{"transaction-id":"1420598520000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"BURGER KING","merchant":"Burger King","is-pending":False,"transaction-time":"2015-01-05T02:47:00.000Z","amount":-168000,"categorization":"Unknown"},{"transaction-id":"1420546560000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"PRONTO LLC","merchant":"Pronto LLC","is-pending":False,"transaction-time":"2015-01-05T03:16:00.000Z","amount":-610300,"categorization":"Unknown"},{"transaction-id":"1420539840000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"NETFLIX.COM","merchant":"Netflix.com","is-pending":False,"transaction-time":"2015-01-03T23:09:00.000Z","amount":-79900,"categorization":"Unknown"},{"transaction-id":"1420460880000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"WENDYS 9974","merchant":"Wendys 9974","is-pending":False,"transaction-time":"2015-01-05T06:32:00.000Z","amount":-275100,"categorization":"Unknown"},{"transaction-id":"1420307220000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"CREDIT CARD PAYMENT","merchant":"Credit Card Payment","is-pending":False,"transaction-time":"2015-01-02T14:25:00.000Z","amount":5194500,"categorization":"Unknown"},{"transaction-id":"1420296360000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"CC PAYMENT","merchant":"CC Payment","is-pending":False,"transaction-time":"2015-01-02T12:34:00.000Z","amount":-5194500,"categorization":"Unknown"},{"transaction-id":"1420283040000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"KMART 7777","merchant":"Kmart 7777","is-pending":False,"transaction-time":"2014-12-30T23:55:00.000Z","amount":-28200,"categorization":"Unknown"},{"transaction-id":"1420279980000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"SUNOCO 0299792200","merchant":"Sunoco","is-pending":False,"transaction-time":"2015-01-01T15:44:00.000Z","amount":-50600,"categorization":"Unknown"},{"transaction-id":"1420272600000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"BEDBATH&B BEDB","merchant":"Bedbath&B Bedb","is-pending":False,"transaction-time":"2014-12-31T03:50:00.000Z","amount":-2582400,"categorization":"Unknown"},{"transaction-id":"1420239120000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Spotify.com","merchant":"Spotify.com","is-pending":False,"transaction-time":"2015-01-01T15:07:00.000Z","amount":-99900,"categorization":"Unknown"},{"transaction-id":"1420232400000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"SOAPS N SUDS","merchant":"Soaps N Suds","is-pending":False,"transaction-time":"2015-01-01T21:25:00.000Z","amount":-506800,"categorization":"Unknown"},{"transaction-id":"1420219560001","account-id":"nonce:comfy-checking/comfy","raw-merchant":"CHECK","merchant":"Check","is-pending":False,"transaction-time":"2015-01-02T15:22:00.000Z","amount":-2980100,"categorization":"Unknown"},{"transaction-id":"1420219560000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"CHECK","merchant":"Check","is-pending":False,"transaction-time":"2015-01-02T15:22:00.000Z","amount":-13642900,"categorization":"Unknown"},{"transaction-id":"1420198920000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"COSTCO","merchant":"Costco","is-pending":False,"transaction-time":"2014-12-31T14:20:00.000Z","amount":-274000,"categorization":"Unknown"},{"transaction-id":"1420183860000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"BURGER KING","merchant":"Burger King","is-pending":False,"transaction-time":"2015-01-02T06:10:00.000Z","amount":-144900,"categorization":"Unknown"},{"transaction-id":"1420122240000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DUNKIN #336784","merchant":"Dunkin #336784","is-pending":False,"transaction-time":"2014-12-31T17:23:00.000Z","amount":-39600,"categorization":"Unknown"},{"transaction-id":"1420087560000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"PANDA EXPRESS 2267","merchant":"Panda Express 2267","is-pending":False,"transaction-time":"2014-12-31T08:09:00.000Z","amount":-221300,"categorization":"Unknown"},{"transaction-id":"1420076760000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"BURGER KING","merchant":"Burger King","is-pending":False,"transaction-time":"2014-12-29T08:12:00.000Z","amount":-153300,"categorization":"Unknown"},{"transaction-id":"1420073100000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Krispy Kreme Donuts","merchant":"Krispy Kreme Donuts","is-pending":False,"transaction-time":"2014-12-31T13:02:00.000Z","amount":-202700,"categorization":"Unknown"},{"transaction-id":"1420053420000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"KMART 7777","merchant":"Kmart 7777","is-pending":False,"transaction-time":"2014-12-30T15:12:00.000Z","amount":-33600,"categorization":"Unknown"},{"transaction-id":"1420033200000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"NAIL LOVERS","merchant":"Nail Lovers","is-pending":False,"transaction-time":"2014-12-29T07:52:00.000Z","amount":-232400,"categorization":"Unknown"},{"transaction-id":"1419837300000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Krispy Kreme Donuts","merchant":"Krispy Kreme Donuts","is-pending":False,"transaction-time":"2014-12-29T06:54:00.000Z","amount":-179300,"categorization":"Unknown"},{"transaction-id":"1419738600000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Card Purchase BUFFALO WILD WINGS","merchant":"Buffalo Wild Wings","is-pending":False,"transaction-time":"2014-12-24T18:11:00.000Z","amount":-199800,"categorization":"Unknown"},{"transaction-id":"1419716160000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"WWW.ITUNES.COM/BILL","merchant":"WWW.iTunes.com/Bill","is-pending":False,"transaction-time":"2014-12-22T14:37:00.000Z","amount":-39500,"categorization":"Unknown"},{"transaction-id":"1419707220000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"ZENPAYROLL","merchant":"Zenpayroll","is-pending":False,"transaction-time":"2014-12-26T11:08:00.000Z","amount":17277900,"categorization":"Unknown"},{"transaction-id":"1419646560000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"WMSUPERCENTER","merchant":"Wmsupercenter","is-pending":False,"transaction-time":"2014-12-24T02:16:00.000Z","amount":-75200,"categorization":"Unknown"},{"transaction-id":"1419610260000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"SWEENEYS CHEVROLET","merchant":"Sweeneys Chevrolet","is-pending":False,"transaction-time":"2014-12-25T22:47:00.000Z","amount":-2418700,"categorization":"Unknown"},{"transaction-id":"1419592680000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Krispy Kreme Donuts","merchant":"Krispy Kreme Donuts","is-pending":False,"transaction-time":"2014-12-24T13:27:00.000Z","amount":-131300,"categorization":"Unknown"},{"transaction-id":"1419576180000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"CHECK","merchant":"Check","is-pending":False,"transaction-time":"2014-12-23T03:42:00.000Z","amount":-3043200,"categorization":"Unknown"},{"transaction-id":"1419528900000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DUNKIN #336784","merchant":"Dunkin #336784","is-pending":False,"transaction-time":"2014-12-22T16:58:00.000Z","amount":-110100,"categorization":"Unknown"},{"transaction-id":"1419509280000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"THE HOME DEPOT 4702","merchant":"The Home Depot 4702","is-pending":False,"transaction-time":"2014-12-24T11:47:00.000Z","amount":-309500,"categorization":"Unknown"},{"transaction-id":"1419505620000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"POS PURCHASE POS18758524 0363597 WHOLE FOODS","merchant":"Whole Foods","is-pending":False,"transaction-time":"2014-12-22T18:12:00.000Z","amount":-361400,"categorization":"Unknown"},{"transaction-id":"1419411540000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"BEDBATH&B BEDB","merchant":"Bedbath&B Bedb","is-pending":False,"transaction-time":"2014-12-23T00:40:00.000Z","amount":-2024600,"categorization":"Unknown"},{"transaction-id":"1419316620000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"CHECKCARD 1103 MCDONALD'S","merchant":"McDonald's","is-pending":False,"transaction-time":"2014-12-21T23:44:00.000Z","amount":-79600,"categorization":"Unknown"},{"transaction-id":"1419182820000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"GRUBHUBFOOD","merchant":"Grubhubfood","is-pending":False,"transaction-time":"2014-12-18T19:58:00.000Z","amount":-66400,"categorization":"Unknown"},{"transaction-id":"1419112500000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"WWW.ITUNES.COM/BILL","merchant":"WWW.iTunes.com/Bill","is-pending":False,"transaction-time":"2014-12-16T21:34:00.000Z","amount":-71100,"categorization":"Unknown"},{"transaction-id":"1419062700000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DUNKIN #336784","merchant":"Dunkin #336784","is-pending":False,"transaction-time":"2014-12-19T07:09:00.000Z","amount":-182000,"categorization":"Unknown"},{"transaction-id":"1419019200000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"NAIL LOVERS","merchant":"Nail Lovers","is-pending":False,"transaction-time":"2014-12-17T22:02:00.000Z","amount":-211200,"categorization":"Unknown"},{"transaction-id":"1418948760000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DUNKIN #336784","merchant":"Dunkin #336784","is-pending":False,"transaction-time":"2014-12-17T05:12:00.000Z","amount":-52600,"categorization":"Unknown"},{"transaction-id":"1418946900000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"CVS 00466 0046 PURCHASE CVS","merchant":"CVS 00466 0046 Purchase CVS","is-pending":False,"transaction-time":"2014-12-18T15:19:00.000Z","amount":-24400,"categorization":"Unknown"},{"transaction-id":"1418907180000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"FIVE GUYS 1248","merchant":"Five Guys 1248","is-pending":False,"transaction-time":"2014-12-16T04:55:00.000Z","amount":-127900,"categorization":"Unknown"},{"transaction-id":"1418901480000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DAIRY QUEEN","merchant":"Dairy Queen","is-pending":False,"transaction-time":"2014-12-17T16:57:00.000Z","amount":-88000,"categorization":"Unknown"},{"transaction-id":"1418883360000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Amazon.com AMZN.COM/BILLWA","merchant":"Amazon.com Amzn.com/Billwa","is-pending":False,"transaction-time":"2014-12-15T10:18:00.000Z","amount":-438800,"categorization":"Unknown"},{"transaction-id":"1418797980000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"KOHL'S #0323","merchant":"Kohl's #0323","is-pending":False,"transaction-time":"2014-12-16T10:30:00.000Z","amount":-323000,"categorization":"Unknown"},{"transaction-id":"1418729940000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Krispy Kreme Donuts","merchant":"Krispy Kreme Donuts","is-pending":False,"transaction-time":"2014-12-15T18:46:00.000Z","amount":-105800,"categorization":"Unknown"},{"transaction-id":"1418685060000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"STEAMGAMES.COM","merchant":"Steamgames.com","is-pending":False,"transaction-time":"2014-12-15T15:06:00.000Z","amount":-82000,"categorization":"Unknown"},{"transaction-id":"1418445780000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"ZENPAYROLL","merchant":"Zenpayroll","is-pending":False,"transaction-time":"2014-12-12T07:12:00.000Z","amount":17070800,"categorization":"Unknown"},{"transaction-id":"1418437380000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"ATM WITHDRAWAL","merchant":"ATM Withdrawal","is-pending":False,"transaction-time":"2014-12-12T13:51:00.000Z","amount":-2000000,"categorization":"Unknown"},{"transaction-id":"1418331600000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DUNKIN #336784","merchant":"Dunkin #336784","is-pending":False,"transaction-time":"2014-12-08T02:20:00.000Z","amount":-198300,"categorization":"Unknown"},{"transaction-id":"1418254020000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DOLLAR GENERAL 8286","merchant":"Dollar General 8286","is-pending":False,"transaction-time":"2014-12-08T08:09:00.000Z","amount":-98700,"categorization":"Unknown"},{"transaction-id":"1418248080000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DOMINO'S 7815","merchant":"Domino's 7815","is-pending":False,"transaction-time":"2014-12-10T09:11:00.000Z","amount":-110800,"categorization":"Unknown"},{"transaction-id":"1418100720000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"COSTCO","merchant":"Costco","is-pending":False,"transaction-time":"2014-12-07T06:04:00.000Z","amount":-282200,"categorization":"Unknown"},{"transaction-id":"1418078700000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"KOHL'S #0323","merchant":"Kohl's #0323","is-pending":False,"transaction-time":"2014-12-06T07:07:00.000Z","amount":-355400,"categorization":"Unknown"},{"transaction-id":"1418044800000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"CHIPOTLE 1602 0065","merchant":"Chipotle 1602 0065","is-pending":False,"transaction-time":"2014-12-07T11:38:00.000Z","amount":-58500,"categorization":"Unknown"},{"transaction-id":"1418020860000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"AT&T BILL PAYMENT","merchant":"At&T Bill Payment","is-pending":False,"transaction-time":"2014-12-07T23:29:00.000Z","amount":-860800,"categorization":"Unknown"},{"transaction-id":"1418019540000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DOLLAR TREE #02976 90","merchant":"Dollar Tree #02976 90","is-pending":False,"transaction-time":"2014-12-05T15:23:00.000Z","amount":-59100,"categorization":"Unknown"},{"transaction-id":"1417938060000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Krispy Kreme Donuts","merchant":"Krispy Kreme Donuts","is-pending":False,"transaction-time":"2014-12-05T03:14:00.000Z","amount":-115300,"categorization":"Unknown"},{"transaction-id":"1417919460000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"CHECK CRD PURCHASE KFC D181002 8301 425907XXXXXX5869 384061094603982 ?MCC=5814","merchant":"KFC D181002 8301","is-pending":False,"transaction-time":"2014-12-04T12:02:00.000Z","amount":-23700,"categorization":"Unknown"},{"transaction-id":"1417916160000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"NETFLIX.COM","merchant":"Netflix.com","is-pending":False,"transaction-time":"2014-12-04T06:49:00.000Z","amount":-79900,"categorization":"Unknown"},{"transaction-id":"1417883640000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"BEST BUY #281","merchant":"Best Buy #281","is-pending":False,"transaction-time":"2014-12-05T19:11:00.000Z","amount":-2922800,"categorization":"Unknown"},{"transaction-id":"1417755660000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"USAIR","merchant":"USAir","is-pending":False,"transaction-time":"2014-12-05T01:17:00.000Z","amount":-8567900,"categorization":"Unknown"},{"transaction-id":"1417734480000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"4917 SUBWAY","merchant":"Subway","is-pending":False,"transaction-time":"2014-12-03T07:57:00.000Z","amount":-265500,"categorization":"Unknown"},{"transaction-id":"1417728960000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"CHIPOTLE 1602 0065","merchant":"Chipotle 1602 0065","is-pending":False,"transaction-time":"2014-12-03T04:48:00.000Z","amount":-72000,"categorization":"Unknown"},{"transaction-id":"1417724760000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"POS PUR FROM BARNESNOBLE 13800","merchant":"From Barnesnoble 13800","is-pending":False,"transaction-time":"2014-12-01T00:42:00.000Z","amount":-488000,"categorization":"Unknown"},{"transaction-id":"1417724460000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"CC PAYMENT","merchant":"CC Payment","is-pending":False,"transaction-time":"2014-12-03T07:44:00.000Z","amount":-5194500,"categorization":"Unknown"},{"transaction-id":"1417658100000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DUNKIN #336784","merchant":"Dunkin #336784","is-pending":False,"transaction-time":"2014-12-03T19:50:00.000Z","amount":-116600,"categorization":"Unknown"},{"transaction-id":"1417643220000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"CREDIT CARD PAYMENT","merchant":"Credit Card Payment","is-pending":False,"transaction-time":"2014-12-03T05:02:00.000Z","amount":5194500,"categorization":"Unknown"},{"transaction-id":"1417616220000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Spotify.com","merchant":"Spotify.com","is-pending":False,"transaction-time":"2014-12-02T05:46:00.000Z","amount":-99900,"categorization":"Unknown"},{"transaction-id":"1417595100000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Krispy Kreme Donuts","merchant":"Krispy Kreme Donuts","is-pending":False,"transaction-time":"2014-12-02T02:27:00.000Z","amount":-220200,"categorization":"Unknown"},{"transaction-id":"1417559880000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Petco Animal Supplies","merchant":"Petco Animal Supplies","is-pending":False,"transaction-time":"2014-12-02T05:28:00.000Z","amount":-111800,"categorization":"Unknown"},{"transaction-id":"1417551360000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"BEST BUY #257","merchant":"Best Buy #257","is-pending":False,"transaction-time":"2014-12-02T16:32:00.000Z","amount":-150500,"categorization":"Unknown"},{"transaction-id":"1417517100000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"HUDSON NEWS","merchant":"Hudson News","is-pending":False,"transaction-time":"2014-12-02T04:33:00.000Z","amount":-21000,"categorization":"Unknown"},{"transaction-id":"1417505880000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"CHECK","merchant":"Check","is-pending":False,"transaction-time":"2014-12-02T01:19:00.000Z","amount":-13642900,"categorization":"Unknown"},{"transaction-id":"1417478220000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"LOWE'S #1186","merchant":"Lowe's #1186","is-pending":False,"transaction-time":"2014-12-01T20:09:00.000Z","amount":-271800,"categorization":"Unknown"},{"transaction-id":"1417430580000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DOLLAR GENERAL 8286","merchant":"Dollar General 8286","is-pending":False,"transaction-time":"2014-11-29T04:07:00.000Z","amount":-61200,"categorization":"Unknown"},{"transaction-id":"1417418460000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"4917 SUBWAY","merchant":"Subway","is-pending":False,"transaction-time":"2014-11-30T15:08:00.000Z","amount":-188800,"categorization":"Unknown"},{"transaction-id":"1417364340000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"ATM WITHDRAWAL","merchant":"ATM Withdrawal","is-pending":False,"transaction-time":"2014-11-27T01:44:00.000Z","amount":-400000,"categorization":"Unknown"},{"transaction-id":"1417343580000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DOMINO'S 7815","merchant":"Domino's 7815","is-pending":False,"transaction-time":"2014-11-28T18:07:00.000Z","amount":-239900,"categorization":"Unknown"},{"transaction-id":"1417333620000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Wal-Mart Super Center","merchant":"Wal-Mart Super Center","is-pending":False,"transaction-time":"2014-11-28T06:14:00.000Z","amount":-324300,"categorization":"Unknown"},{"transaction-id":"1417273140000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"ATM WITHDRAWAL","merchant":"ATM Withdrawal","is-pending":False,"transaction-time":"2014-11-26T13:31:00.000Z","amount":-2020000,"categorization":"Unknown"},{"transaction-id":"1417162440000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"SWEENEYS CHEVROLET","merchant":"Sweeneys Chevrolet","is-pending":False,"transaction-time":"2014-11-26T13:51:00.000Z","amount":-2418700,"categorization":"Unknown"},{"transaction-id":"1417144140000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Krispy Kreme Donuts","merchant":"Krispy Kreme Donuts","is-pending":False,"transaction-time":"2014-11-27T23:46:00.000Z","amount":-25200,"categorization":"Unknown"},{"transaction-id":"1417132080000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"ZENPAYROLL","merchant":"Zenpayroll","is-pending":False,"transaction-time":"2014-11-26T16:26:00.000Z","amount":17457100,"categorization":"Unknown"},{"transaction-id":"1416827700000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"SERVICE FEE","merchant":"Service Fee","is-pending":False,"transaction-time":"2014-11-23T13:31:00.000Z","amount":-35800,"categorization":"Unknown"},{"transaction-id":"1416527820000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"CHECK CRD PURCHASE KFC D181002 8301 425907XXXXXX5869 384061094603982 ?MCC=5814","merchant":"KFC D181002 8301","is-pending":False,"transaction-time":"2014-11-19T11:40:00.000Z","amount":-201500,"categorization":"Unknown"},{"transaction-id":"1416470040000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"KMART 7777","merchant":"Kmart 7777","is-pending":False,"transaction-time":"2014-11-18T00:32:00.000Z","amount":-66000,"categorization":"Unknown"},{"transaction-id":"1416449280000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"LOWE'S #2246","merchant":"Lowe's #2246","is-pending":False,"transaction-time":"2014-11-18T03:21:00.000Z","amount":-1590300,"categorization":"Unknown"},{"transaction-id":"1416414660000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"SUNOCO 0299792200","merchant":"Sunoco","is-pending":False,"transaction-time":"2014-11-16T21:28:00.000Z","amount":-22100,"categorization":"Unknown"},{"transaction-id":"1416368280000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Wal-Mart Super Center","merchant":"Wal-Mart Super Center","is-pending":False,"transaction-time":"2014-11-16T08:21:00.000Z","amount":-164900,"categorization":"Unknown"},{"transaction-id":"1416364140000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Krispy Kreme Donuts","merchant":"Krispy Kreme Donuts","is-pending":False,"transaction-time":"2014-11-18T14:23:00.000Z","amount":-151800,"categorization":"Unknown"},{"transaction-id":"1416360780000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"SHELL Service Station","merchant":"Shell Service Station","is-pending":False,"transaction-time":"2014-11-14T00:30:00.000Z","amount":-343500,"categorization":"Unknown"},{"transaction-id":"1416329580000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"CHECKCARD 1103 MCDONALD'S","merchant":"McDonald's","is-pending":False,"transaction-time":"2014-11-16T02:03:00.000Z","amount":-60200,"categorization":"Unknown"},{"transaction-id":"1416328620000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"BEST BUY #281","merchant":"Best Buy #281","is-pending":False,"transaction-time":"2014-11-15T03:34:00.000Z","amount":-2206800,"categorization":"Unknown"},{"transaction-id":"1416293820000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"COSTCO","merchant":"Costco","is-pending":False,"transaction-time":"2014-11-18T05:49:00.000Z","amount":-192800,"categorization":"Unknown"},{"transaction-id":"1416290940000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DUNKIN #336784","merchant":"Dunkin #336784","is-pending":False,"transaction-time":"2014-11-15T11:13:00.000Z","amount":-58600,"categorization":"Unknown"},{"transaction-id":"1416258720000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DUNKIN #336784","merchant":"Dunkin #336784","is-pending":False,"transaction-time":"2014-11-16T23:38:00.000Z","amount":-55500,"categorization":"Unknown"},{"transaction-id":"1416152040000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"TACO BELL 021394","merchant":"Taco Bell 021394","is-pending":False,"transaction-time":"2014-11-15T22:24:00.000Z","amount":-58500,"categorization":"Unknown"},{"transaction-id":"1416151140000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"SHELL OIL 57544422702","merchant":"Shell Oil","is-pending":False,"transaction-time":"2014-11-14T21:35:00.000Z","amount":-104900,"categorization":"Unknown"},{"transaction-id":"1416133080000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"7-ELEVEN 23853","merchant":"7-Eleven 23853","is-pending":False,"transaction-time":"2014-11-15T06:30:00.000Z","amount":-123000,"categorization":"Unknown"},{"transaction-id":"1416129960000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Wal-Mart Super Center","merchant":"Wal-Mart Super Center","is-pending":False,"transaction-time":"2014-11-16T08:57:00.000Z","amount":-464700,"categorization":"Unknown"},{"transaction-id":"1416082080000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Krispy Kreme Donuts","merchant":"Krispy Kreme Donuts","is-pending":False,"transaction-time":"2014-11-14T21:21:00.000Z","amount":-39400,"categorization":"Unknown"},{"transaction-id":"1416031980000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"QDOBA","merchant":"Qdoba","is-pending":False,"transaction-time":"2014-11-14T15:58:00.000Z","amount":-299300,"categorization":"Unknown"},{"transaction-id":"1416023700000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"SHOPTRN*Thule","merchant":"Shoptrn*Thule","is-pending":False,"transaction-time":"2014-11-12T18:47:00.000Z","amount":-319300,"categorization":"Unknown"},{"transaction-id":"1415957220000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"ZENPAYROLL","merchant":"Zenpayroll","is-pending":False,"transaction-time":"2014-11-13T23:50:00.000Z","amount":16843500,"categorization":"Unknown"},{"transaction-id":"1415943060000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Starbucks","merchant":"Starbucks","is-pending":False,"transaction-time":"2014-11-10T23:49:00.000Z","amount":-12900,"categorization":"Unknown"},{"transaction-id":"1415931540000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Krispy Kreme Donuts","merchant":"Krispy Kreme Donuts","is-pending":False,"transaction-time":"2014-11-11T16:29:00.000Z","amount":-129200,"categorization":"Unknown"},{"transaction-id":"1415907600000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"GRUBHUBFOOD","merchant":"Grubhubfood","is-pending":False,"transaction-time":"2014-11-13T06:45:00.000Z","amount":-217700,"categorization":"Unknown"},{"transaction-id":"1415806380000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"USAIR","merchant":"USAir","is-pending":False,"transaction-time":"2014-11-11T20:41:00.000Z","amount":-5177300,"categorization":"Unknown"},{"transaction-id":"1415802900000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Wal-Mart Super Center","merchant":"Wal-Mart Super Center","is-pending":False,"transaction-time":"2014-11-12T11:53:00.000Z","amount":-3723900,"categorization":"Unknown"},{"transaction-id":"1415738040000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"ATM WITHDRAWAL","merchant":"ATM Withdrawal","is-pending":False,"transaction-time":"2014-11-09T10:55:00.000Z","amount":-2020000,"categorization":"Unknown"},{"transaction-id":"1415630700000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"QDOBA","merchant":"Qdoba","is-pending":False,"transaction-time":"2014-11-07T05:05:00.000Z","amount":-87200,"categorization":"Unknown"},{"transaction-id":"1415535420000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"AT&T BILL PAYMENT","merchant":"At&T Bill Payment","is-pending":False,"transaction-time":"2014-11-08T04:56:00.000Z","amount":-860800,"categorization":"Unknown"},{"transaction-id":"1415510460000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DUNKIN #336784","merchant":"Dunkin #336784","is-pending":False,"transaction-time":"2014-11-06T05:13:00.000Z","amount":-49100,"categorization":"Unknown"},{"transaction-id":"1415479680000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"BEST BUY #257","merchant":"Best Buy #257","is-pending":False,"transaction-time":"2014-11-06T07:17:00.000Z","amount":-301100,"categorization":"Unknown"},{"transaction-id":"1415305200000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"LOWE'S #1186","merchant":"Lowe's #1186","is-pending":False,"transaction-time":"2014-11-05T06:40:00.000Z","amount":-1527200,"categorization":"Unknown"},{"transaction-id":"1415304660000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"CVS 00466 0046 PURCHASE CVS","merchant":"CVS 00466 0046 Purchase CVS","is-pending":False,"transaction-time":"2014-11-05T22:23:00.000Z","amount":-76100,"categorization":"Unknown"},{"transaction-id":"1415193660000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"CC PAYMENT","merchant":"CC Payment","is-pending":False,"transaction-time":"2014-11-03T20:58:00.000Z","amount":-5194500,"categorization":"Unknown"},{"transaction-id":"1415151660000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"NETFLIX.COM","merchant":"Netflix.com","is-pending":False,"transaction-time":"2014-11-04T07:01:00.000Z","amount":-79900,"categorization":"Unknown"},{"transaction-id":"1415042820000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"CREDIT CARD PAYMENT","merchant":"Credit Card Payment","is-pending":False,"transaction-time":"2014-11-03T18:58:00.000Z","amount":5194500,"categorization":"Unknown"},{"transaction-id":"1415030940000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"CHECK","merchant":"Check","is-pending":False,"transaction-time":"2014-11-02T10:09:00.000Z","amount":-13642900,"categorization":"Unknown"},{"transaction-id":"1415023140000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Spotify.com","merchant":"Spotify.com","is-pending":False,"transaction-time":"2014-11-03T06:25:00.000Z","amount":-99900,"categorization":"Unknown"},{"transaction-id":"1414910760000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"ATM WITHDRAWAL","merchant":"ATM Withdrawal","is-pending":False,"transaction-time":"2014-11-02T06:25:00.000Z","amount":-820000,"categorization":"Unknown"},{"transaction-id":"1414862940000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"PANDA EXPRESS 2267","merchant":"Panda Express 2267","is-pending":False,"transaction-time":"2014-10-29T03:03:00.000Z","amount":-59300,"categorization":"Unknown"},{"transaction-id":"1414696020000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"KROGER LIMITED P 2009","merchant":"Kroger Limited P 2009","is-pending":False,"transaction-time":"2014-10-27T15:29:00.000Z","amount":-272600,"categorization":"Unknown"},{"transaction-id":"1414625640000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"ATM WITHDRAWAL","merchant":"ATM Withdrawal","is-pending":False,"transaction-time":"2014-10-29T11:47:00.000Z","amount":-800000,"categorization":"Unknown"},{"transaction-id":"1414598880000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Krispy Kreme Donuts","merchant":"Krispy Kreme Donuts","is-pending":False,"transaction-time":"2014-10-24T19:27:00.000Z","amount":-289300,"categorization":"Unknown"},{"transaction-id":"1414569420000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DUNKIN #336784","merchant":"Dunkin #336784","is-pending":False,"transaction-time":"2014-10-29T01:12:00.000Z","amount":-106400,"categorization":"Unknown"},{"transaction-id":"1414558380000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"SERVICE FEE","merchant":"Service Fee","is-pending":False,"transaction-time":"2014-10-27T09:26:00.000Z","amount":-43400,"categorization":"Unknown"},{"transaction-id":"1414500660000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"HUDSON NEWS","merchant":"Hudson News","is-pending":False,"transaction-time":"2014-10-25T10:43:00.000Z","amount":-103700,"categorization":"Unknown"},{"transaction-id":"1414483380000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"CHECKCARD 1103 MCDONALD'S","merchant":"McDonald's","is-pending":False,"transaction-time":"2014-10-26T15:02:00.000Z","amount":-112000,"categorization":"Unknown"},{"transaction-id":"1414461120000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"NAIL LOVERS","merchant":"Nail Lovers","is-pending":False,"transaction-time":"2014-10-26T12:13:00.000Z","amount":-349500,"categorization":"Unknown"},{"transaction-id":"1414456380000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Starbucks","merchant":"Starbucks","is-pending":False,"transaction-time":"2014-10-27T07:20:00.000Z","amount":-70100,"categorization":"Unknown"},{"transaction-id":"1414455300000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"SOAPS N SUDS","merchant":"Soaps N Suds","is-pending":False,"transaction-time":"2014-10-27T19:42:00.000Z","amount":-616500,"categorization":"Unknown"},{"transaction-id":"1414443000000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"JAMBA JUICE #689","merchant":"Jamba Juice #689","is-pending":False,"transaction-time":"2014-10-27T20:00:00.000Z","amount":-116500,"categorization":"Unknown"},{"transaction-id":"1414410360000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"ATM WITHDRAWAL","merchant":"ATM Withdrawal","is-pending":False,"transaction-time":"2014-10-25T02:55:00.000Z","amount":-800000,"categorization":"Unknown"},{"transaction-id":"1414377120000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DUNKIN #336784","merchant":"Dunkin #336784","is-pending":False,"transaction-time":"2014-10-26T15:17:00.000Z","amount":-53100,"categorization":"Unknown"},{"transaction-id":"1414355160000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Krispy Kreme Donuts","merchant":"Krispy Kreme Donuts","is-pending":False,"transaction-time":"2014-10-24T23:08:00.000Z","amount":-116700,"categorization":"Unknown"},{"transaction-id":"1414318380000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"SWEENEYS CHEVROLET","merchant":"Sweeneys Chevrolet","is-pending":False,"transaction-time":"2014-10-24T20:55:00.000Z","amount":-2418700,"categorization":"Unknown"},{"transaction-id":"1414304220000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"ZENPAYROLL","merchant":"Zenpayroll","is-pending":False,"transaction-time":"2014-10-24T22:01:00.000Z","amount":17216400,"categorization":"Unknown"},{"transaction-id":"1414284900000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"BURGER KING","merchant":"Burger King","is-pending":False,"transaction-time":"2014-10-25T08:19:00.000Z","amount":-219500,"categorization":"Unknown"},{"transaction-id":"1414266720000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"7-ELEVEN 23853","merchant":"7-Eleven 23853","is-pending":False,"transaction-time":"2014-10-24T06:19:00.000Z","amount":-136700,"categorization":"Unknown"},{"transaction-id":"1414239900000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"WWW.ITUNES.COM/BILL","merchant":"WWW.iTunes.com/Bill","is-pending":False,"transaction-time":"2014-10-24T08:55:00.000Z","amount":-63300,"categorization":"Unknown"},{"transaction-id":"1414163760000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"NORDSTROM RACK #0474","merchant":"Nordstrom Rack #0474","is-pending":False,"transaction-time":"2014-10-24T07:20:00.000Z","amount":-2050400,"categorization":"Unknown"},{"transaction-id":"1414158720000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Amazon.com AMZN.COM/BILLWA","merchant":"Amazon.com Amzn.com/Billwa","is-pending":False,"transaction-time":"2014-10-23T16:54:00.000Z","amount":-111500,"categorization":"Unknown"},{"transaction-id":"1414153020000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Krispy Kreme Donuts","merchant":"Krispy Kreme Donuts","is-pending":False,"transaction-time":"2014-10-20T23:22:00.000Z","amount":-52200,"categorization":"Unknown"},{"transaction-id":"1414114020000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"SERVICE FEE","merchant":"Service Fee","is-pending":False,"transaction-time":"2014-10-23T06:30:00.000Z","amount":-50900,"categorization":"Unknown"},{"transaction-id":"1414049580000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"REDROBIN","merchant":"Redrobin","is-pending":False,"transaction-time":"2014-10-20T11:41:00.000Z","amount":-148600,"categorization":"Unknown"},{"transaction-id":"1413978480000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"KOHL'S #0323","merchant":"Kohl's #0323","is-pending":False,"transaction-time":"2014-10-21T22:11:00.000Z","amount":-156600,"categorization":"Unknown"},{"transaction-id":"1413910260000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"JAMBA JUICE #689","merchant":"Jamba Juice #689","is-pending":False,"transaction-time":"2014-10-20T02:55:00.000Z","amount":-56500,"categorization":"Unknown"},{"transaction-id":"1413899100000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"ATM WITHDRAWAL","merchant":"ATM Withdrawal","is-pending":False,"transaction-time":"2014-10-20T12:53:00.000Z","amount":-820000,"categorization":"Unknown"},{"transaction-id":"1413830460000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"QDOBA","merchant":"Qdoba","is-pending":False,"transaction-time":"2014-10-15T17:26:00.000Z","amount":-40100,"categorization":"Unknown"},{"transaction-id":"1413630360000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"7-ELEVEN 23853","merchant":"7-Eleven 23853","is-pending":False,"transaction-time":"2014-10-15T09:24:00.000Z","amount":-60400,"categorization":"Unknown"},{"transaction-id":"1413623340000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"JAMBA JUICE #689","merchant":"Jamba Juice #689","is-pending":False,"transaction-time":"2014-10-16T12:52:00.000Z","amount":-50000,"categorization":"Unknown"},{"transaction-id":"1413618600000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"GIANT EAG 1201","merchant":"Giant Eag 1201","is-pending":False,"transaction-time":"2014-10-16T09:24:00.000Z","amount":-432400,"categorization":"Unknown"},{"transaction-id":"1413509340000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Krispy Kreme Donuts","merchant":"Krispy Kreme Donuts","is-pending":False,"transaction-time":"2014-10-16T18:58:00.000Z","amount":-192900,"categorization":"Unknown"},{"transaction-id":"1413263400000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"POS PURCHASE POS18758524 0363597 WHOLE FOODS","merchant":"Whole Foods","is-pending":False,"transaction-time":"2014-10-12T09:10:00.000Z","amount":-371500,"categorization":"Unknown"},{"transaction-id":"1413107820000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"7-ELEVEN 23853","merchant":"7-Eleven 23853","is-pending":False,"transaction-time":"2014-10-10T06:57:00.000Z","amount":-103900,"categorization":"Unknown"},{"transaction-id":"1413091500000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"H&M","merchant":"H&M","is-pending":False,"transaction-time":"2014-10-11T16:43:00.000Z","amount":-59400,"categorization":"Unknown"},{"transaction-id":"1413042060000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Krispy Kreme Donuts","merchant":"Krispy Kreme Donuts","is-pending":False,"transaction-time":"2014-10-10T16:42:00.000Z","amount":-92700,"categorization":"Unknown"},{"transaction-id":"1413018300000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"LOWE'S #2246","merchant":"Lowe's #2246","is-pending":False,"transaction-time":"2014-10-10T16:13:00.000Z","amount":-2974000,"categorization":"Unknown"},{"transaction-id":"1412985120000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"SUNOCO 0299792200","merchant":"Sunoco","is-pending":False,"transaction-time":"2014-10-07T17:29:00.000Z","amount":-30200,"categorization":"Unknown"},{"transaction-id":"1412948520000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"AT&T BILL PAYMENT","merchant":"At&T Bill Payment","is-pending":False,"transaction-time":"2014-10-08T10:41:00.000Z","amount":-860800,"categorization":"Unknown"},{"transaction-id":"1412942220000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"GIANT EAG 1201","merchant":"Giant Eag 1201","is-pending":False,"transaction-time":"2014-10-08T09:24:00.000Z","amount":-188800,"categorization":"Unknown"},{"transaction-id":"1412909700000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"ZENPAYROLL","merchant":"Zenpayroll","is-pending":False,"transaction-time":"2014-10-09T12:52:00.000Z","amount":17081500,"categorization":"Unknown"},{"transaction-id":"1412845980000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Krispy Kreme Donuts","merchant":"Krispy Kreme Donuts","is-pending":False,"transaction-time":"2014-10-08T01:56:00.000Z","amount":-99000,"categorization":"Unknown"},{"transaction-id":"1412790480000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"7-ELEVEN 23853","merchant":"7-Eleven 23853","is-pending":False,"transaction-time":"2014-10-07T12:59:00.000Z","amount":-34300,"categorization":"Unknown"},{"transaction-id":"1412690040000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"CHECK CRD PURCHASE KFC D181002 8301 425907XXXXXX5869 384061094603982 ?MCC=5814","merchant":"KFC D181002 8301","is-pending":False,"transaction-time":"2014-10-05T08:04:00.000Z","amount":-56400,"categorization":"Unknown"},{"transaction-id":"1412547960000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"NETFLIX.COM","merchant":"Netflix.com","is-pending":False,"transaction-time":"2014-10-04T15:46:00.000Z","amount":-79900,"categorization":"Unknown"},{"transaction-id":"1412470860000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"CHECK","merchant":"Check","is-pending":False,"transaction-time":"2014-10-03T02:24:00.000Z","amount":-13642900,"categorization":"Unknown"},{"transaction-id":"1412364360000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"CREDIT CARD PAYMENT","merchant":"Credit Card Payment","is-pending":False,"transaction-time":"2014-10-03T16:28:00.000Z","amount":5194500,"categorization":"Unknown"},{"transaction-id":"1412357760000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"Spotify.com","merchant":"Spotify.com","is-pending":False,"transaction-time":"2014-10-01T02:53:00.000Z","amount":-99900,"categorization":"Unknown"},{"transaction-id":"1412319300000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"CC PAYMENT","merchant":"CC Payment","is-pending":False,"transaction-time":"2014-10-02T23:09:00.000Z","amount":-5194500,"categorization":"Unknown"},{"transaction-id":"1412218800000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"REDROBIN","merchant":"Redrobin","is-pending":False,"transaction-time":"2014-09-28T21:56:00.000Z","amount":-91400,"categorization":"Unknown"},{"transaction-id":"1412099340000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"THE UPS STORE","merchant":"The Ups Store","is-pending":False,"transaction-time":"2014-09-27T04:05:00.000Z","amount":-388700,"categorization":"Unknown"},{"transaction-id":"1412016720000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"4917 SUBWAY","merchant":"Subway","is-pending":False,"transaction-time":"2014-09-29T04:54:00.000Z","amount":-55700,"categorization":"Unknown"},{"transaction-id":"1412007720000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"LOWE'S #1186","merchant":"Lowe's #1186","is-pending":False,"transaction-time":"2014-09-28T13:26:00.000Z","amount":-1479700,"categorization":"Unknown"},{"transaction-id":"1411963080000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"KOHL'S #0323","merchant":"Kohl's #0323","is-pending":False,"transaction-time":"2014-09-28T12:05:00.000Z","amount":-139400,"categorization":"Unknown"},{"transaction-id":"1411941060000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"SWEENEYS CHEVROLET","merchant":"Sweeneys Chevrolet","is-pending":False,"transaction-time":"2014-09-26T19:39:00.000Z","amount":-2418700,"categorization":"Unknown"},{"transaction-id":"1411940340000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"SHELL OIL 57544422702","merchant":"Shell Oil","is-pending":False,"transaction-time":"2014-09-28T09:55:00.000Z","amount":-75600,"categorization":"Unknown"},{"transaction-id":"1411911480000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DOLLAR TREE #02976 90","merchant":"Dollar Tree #02976 90","is-pending":False,"transaction-time":"2014-09-28T07:16:00.000Z","amount":-101800,"categorization":"Unknown"},{"transaction-id":"1411894020000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DUNKIN #336784","merchant":"Dunkin #336784","is-pending":False,"transaction-time":"2014-09-26T18:52:00.000Z","amount":-214900,"categorization":"Unknown"},{"transaction-id":"1411868820000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DUNKIN #336784","merchant":"Dunkin #336784","is-pending":False,"transaction-time":"2014-09-27T07:33:00.000Z","amount":-28700,"categorization":"Unknown"},{"transaction-id":"1411859700000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"ZENPAYROLL","merchant":"Zenpayroll","is-pending":False,"transaction-time":"2014-09-26T03:10:00.000Z","amount":17215600,"categorization":"Unknown"},{"transaction-id":"1411841820000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"GRUBHUBFOOD","merchant":"Grubhubfood","is-pending":False,"transaction-time":"2014-09-27T11:37:00.000Z","amount":-63900,"categorization":"Unknown"},{"transaction-id":"1411687800000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"FIVE GUYS 1248","merchant":"Five Guys 1248","is-pending":False,"transaction-time":"2014-09-22T13:56:00.000Z","amount":-46500,"categorization":"Unknown"},{"transaction-id":"1411424160000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"CHECK","merchant":"Check","is-pending":False,"transaction-time":"2014-09-19T09:28:00.000Z","amount":-3047000,"categorization":"Unknown"},{"transaction-id":"1411362600000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"MERCURY BLVD. CI","merchant":"Mercury Blvd. CI","is-pending":False,"transaction-time":"2014-09-21T06:29:00.000Z","amount":-100000,"categorization":"Unknown"},{"transaction-id":"1410671820000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"ZENPAYROLL","merchant":"Zenpayroll","is-pending":False,"transaction-time":"2014-09-12T02:33:00.000Z","amount":17301200,"categorization":"Unknown"},{"transaction-id":"1410425040000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"ATM WITHDRAWAL","merchant":"ATM Withdrawal","is-pending":False,"transaction-time":"2014-09-10T09:44:00.000Z","amount":-400000,"categorization":"Unknown"},{"transaction-id":"1410414540000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"PetSmart","merchant":"Petsmart","is-pending":False,"transaction-time":"2014-09-07T12:50:00.000Z","amount":-279200,"categorization":"Unknown"},{"transaction-id":"1410384360000","account-id":"nonce:comfy-checking/comfy","raw-merchant":"AT&T BILL PAYMENT","merchant":"At&T Bill Payment","is-pending":False,"transaction-time":"2014-09-07T14:49:00.000Z","amount":-860800,"categorization":"Unknown"},{"transaction-id":"1410332280000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DUNKIN #336784","merchant":"Dunkin #336784","is-pending":False,"transaction-time":"2014-09-07T15:14:00.000Z","amount":-72000,"categorization":"Unknown"},{"transaction-id":"1410107520000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"WALGREENS","merchant":"Walgreens","is-pending":False,"transaction-time":"2014-09-06T09:19:00.000Z","amount":-41900,"categorization":"Unknown"},{"transaction-id":"1410103140000","account-id":"nonce:comfy-cc/comfy","raw-merchant":"DAIRY QUEEN","merchant":"Dairy Queen","is-pending":False,"transaction-time":"2014-09-06T05:20:00.000Z","amount":-88200,"categorization":"Unknown"}],"error":"no-error"}
+accounts = {
+  "accounts": [
+    {
+      "account-id": "nonce:struggling-cc/struggling",
+      "legacy-institution-id": 42069000,
+      "institution-name": "NYBE (Not Your Bank Either)",
+      "active": True,
+      "account-name": "Credit Card",
+      "balance": -60000000,
+      "account-type": "credit-card",
+      "last-digits": "1453"
+    },
+    {
+      "account-id": "nonce:struggling-checking/struggling",
+      "legacy-institution-id": 42069000,
+      "institution-name": "NYBE (Not Your Bank Either)",
+      "active": True,
+      "account-name": "Free Checking",
+      "balance": 7000000,
+      "account-type": "asset",
+      "last-digits": "4272"
+    }
+  ],
+  "error": "no-error"
+}
+transactions = {
+  "transactions": [
+    {
+      "transaction-id": "1425608100000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "CREDIT CARD PAYMENT",
+      "merchant": "Credit Card Payment",
+      "is-pending": False,
+      "transaction-time": "2015-03-03T05:58:00.000Z",
+      "amount": 2000000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1425585000000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "SUNOCO 0299792200",
+      "merchant": "Sunoco",
+      "is-pending": False,
+      "transaction-time": "2015-03-05T14:03:00.000Z",
+      "amount": -145500,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1425543180000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "COMCAST",
+      "merchant": "Comcast",
+      "is-pending": False,
+      "transaction-time": "2015-03-04T08:14:00.000Z",
+      "amount": -832600,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1425480720000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "CHECK",
+      "merchant": "Check",
+      "is-pending": False,
+      "transaction-time": "2015-03-03T02:08:00.000Z",
+      "amount": -8642900,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1425469920000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "Amazon.com AMZN.COM/BILLWA",
+      "merchant": "Amazon.com Amzn.com/Billwa",
+      "is-pending": False,
+      "transaction-time": "2015-03-03T22:36:00.000Z",
+      "amount": -425900,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1425415020000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "7-ELEVEN 23853",
+      "merchant": "7-Eleven 23853",
+      "is-pending": False,
+      "transaction-time": "2015-03-03T04:26:00.000Z",
+      "amount": -62100,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1425402180000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "DOMINO'S 7815",
+      "merchant": "Domino's 7815",
+      "is-pending": False,
+      "transaction-time": "2015-03-03T02:06:00.000Z",
+      "amount": -34000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1425334920000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "MACARTHUR FORD",
+      "merchant": "MacArthur Ford",
+      "is-pending": False,
+      "transaction-time": "2015-02-27T06:18:00.000Z",
+      "amount": -1418700,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1425307260000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "SHOPTRN*Thule",
+      "merchant": "Shoptrn*Thule",
+      "is-pending": False,
+      "transaction-time": "2015-03-02T07:45:00.000Z",
+      "amount": -467500,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1425274080000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "ATM WITHDRAWAL",
+      "merchant": "ATM Withdrawal",
+      "is-pending": False,
+      "transaction-time": "2015-02-28T11:29:00.000Z",
+      "amount": -400000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1425263400000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "7-ELEVEN 23853",
+      "merchant": "7-Eleven 23853",
+      "is-pending": False,
+      "transaction-time": "2015-02-28T06:13:00.000Z",
+      "amount": -125900,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1425168120000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "THE UPS STORE",
+      "merchant": "The Ups Store",
+      "is-pending": False,
+      "transaction-time": "2015-02-27T20:35:00.000Z",
+      "amount": -644400,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1425150720000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "DAIRY QUEEN",
+      "merchant": "Dairy Queen",
+      "is-pending": False,
+      "transaction-time": "2015-02-26T23:12:00.000Z",
+      "amount": -37100,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1425147180000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "DOLLAR GENERAL 8286",
+      "merchant": "Dollar General 8286",
+      "is-pending": False,
+      "transaction-time": "2015-02-28T05:17:00.000Z",
+      "amount": -75300,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1425142260000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "KOHL'S #0323",
+      "merchant": "Kohl's #0323",
+      "is-pending": False,
+      "transaction-time": "2015-02-28T15:43:00.000Z",
+      "amount": -269200,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1425106200000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "DIRDEP",
+      "merchant": "Dirdep",
+      "is-pending": False,
+      "transaction-time": "2015-02-27T01:34:00.000Z",
+      "amount": 8925800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1425082740000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "Starbucks",
+      "merchant": "Starbucks",
+      "is-pending": False,
+      "transaction-time": "2015-02-27T03:04:00.000Z",
+      "amount": -22500,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1425015360000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "7-ELEVEN 23853",
+      "merchant": "7-Eleven 23853",
+      "is-pending": False,
+      "transaction-time": "2015-02-25T22:44:00.000Z",
+      "amount": -122800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1424989560000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "COSTCO",
+      "merchant": "Costco",
+      "is-pending": False,
+      "transaction-time": "2015-02-26T03:29:00.000Z",
+      "amount": -567200,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1424949780000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "WALGREENS",
+      "merchant": "Walgreens",
+      "is-pending": False,
+      "transaction-time": "2015-02-24T20:07:00.000Z",
+      "amount": -32100,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1424781060000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "DOLLAR GENERAL 8286",
+      "merchant": "Dollar General 8286",
+      "is-pending": False,
+      "transaction-time": "2015-02-21T13:44:00.000Z",
+      "amount": -75500,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1424740860000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "Card Purchase BUFFALO WILD WINGS",
+      "merchant": "Buffalo Wild Wings",
+      "is-pending": False,
+      "transaction-time": "2015-02-22T18:17:00.000Z",
+      "amount": -43800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1424649720000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "POS PUR FROM BARNESNOBLE 13800",
+      "merchant": "From Barnesnoble 13800",
+      "is-pending": False,
+      "transaction-time": "2015-02-20T19:41:00.000Z",
+      "amount": -134500,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1424353560000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "DOMINO'S 7815",
+      "merchant": "Domino's 7815",
+      "is-pending": False,
+      "transaction-time": "2015-02-16T11:25:00.000Z",
+      "amount": -39900,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1424314980000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "Petco Animal Supplies",
+      "merchant": "Petco Animal Supplies",
+      "is-pending": False,
+      "transaction-time": "2015-02-17T07:10:00.000Z",
+      "amount": -131400,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1424255880000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "Petco Animal Supplies",
+      "merchant": "Petco Animal Supplies",
+      "is-pending": False,
+      "transaction-time": "2015-02-14T15:34:00.000Z",
+      "amount": -28000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1424232300000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "H&M",
+      "merchant": "H&M",
+      "is-pending": False,
+      "transaction-time": "2015-02-15T12:30:00.000Z",
+      "amount": -78100,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1424229180000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "POS PUR FROM BARNESNOBLE 13800",
+      "merchant": "From Barnesnoble 13800",
+      "is-pending": False,
+      "transaction-time": "2015-02-17T04:32:00.000Z",
+      "amount": -442400,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1424134440000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "VERIZON",
+      "merchant": "Verizon",
+      "is-pending": False,
+      "transaction-time": "2015-02-15T13:16:00.000Z",
+      "amount": -660800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1424111580000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "CHECKCARD 1103 MCDONALD'S",
+      "merchant": "McDonald's",
+      "is-pending": False,
+      "transaction-time": "2015-02-13T19:23:00.000Z",
+      "amount": -83900,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1424097660000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "Amazon.com AMZN.COM/BILLWA",
+      "merchant": "Amazon.com Amzn.com/Billwa",
+      "is-pending": False,
+      "transaction-time": "2015-02-15T11:59:00.000Z",
+      "amount": -220700,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1424089380000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "PAYPAL           ECHECK     J222",
+      "merchant": "Paypal Echeck J222",
+      "is-pending": False,
+      "transaction-time": "2015-02-11T10:13:00.000Z",
+      "amount": -533400,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1424084220000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "ATM WITHDRAWAL",
+      "merchant": "ATM Withdrawal",
+      "is-pending": False,
+      "transaction-time": "2015-02-14T04:08:00.000Z",
+      "amount": -200000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1424070000000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "KROGER LIMITED P 2009",
+      "merchant": "Kroger Limited P 2009",
+      "is-pending": False,
+      "transaction-time": "2015-02-15T03:35:00.000Z",
+      "amount": -722200,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1424061900000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "BURGER KING",
+      "merchant": "Burger King",
+      "is-pending": False,
+      "transaction-time": "2015-02-14T06:26:00.000Z",
+      "amount": -71700,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1423935900000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "Petco Animal Supplies",
+      "merchant": "Petco Animal Supplies",
+      "is-pending": False,
+      "transaction-time": "2015-02-12T19:02:00.000Z",
+      "amount": -48800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1423929000000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "CC PAYMENT",
+      "merchant": "CC Payment",
+      "is-pending": False,
+      "transaction-time": "2015-02-11T23:27:00.000Z",
+      "amount": -2000000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1423926780000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "WENDYS 9974",
+      "merchant": "Wendys 9974",
+      "is-pending": False,
+      "transaction-time": "2015-02-12T10:12:00.000Z",
+      "amount": -24100,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1423896720000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "DIRDEP",
+      "merchant": "Dirdep",
+      "is-pending": False,
+      "transaction-time": "2015-02-13T15:57:00.000Z",
+      "amount": 8925800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1423895700000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "Wal-Mart Super Center",
+      "merchant": "Wal-Mart Super Center",
+      "is-pending": False,
+      "transaction-time": "2015-02-13T17:22:00.000Z",
+      "amount": -523000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1423839120000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "Starbucks",
+      "merchant": "Starbucks",
+      "is-pending": False,
+      "transaction-time": "2015-02-12T11:32:00.000Z",
+      "amount": -23900,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1423803960000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "CHECKCARD 1103 MCDONALD'S",
+      "merchant": "McDonald's",
+      "is-pending": False,
+      "transaction-time": "2015-02-12T21:09:00.000Z",
+      "amount": -143000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1423563300000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "ATM WITHDRAWAL",
+      "merchant": "ATM Withdrawal",
+      "is-pending": False,
+      "transaction-time": "2015-02-09T05:19:00.000Z",
+      "amount": -200000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1423403580000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "7-ELEVEN 23853",
+      "merchant": "7-Eleven 23853",
+      "is-pending": False,
+      "transaction-time": "2015-02-06T03:45:00.000Z",
+      "amount": -23600,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1423315980000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "KROGER LIMITED P 2009",
+      "merchant": "Kroger Limited P 2009",
+      "is-pending": False,
+      "transaction-time": "2015-02-05T06:28:00.000Z",
+      "amount": -445900,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1423251300000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "WENDYS 9974",
+      "merchant": "Wendys 9974",
+      "is-pending": False,
+      "transaction-time": "2015-02-04T11:04:00.000Z",
+      "amount": -26400,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1423077060000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "GOODWILL",
+      "merchant": "Goodwill",
+      "is-pending": False,
+      "transaction-time": "2015-02-02T16:07:00.000Z",
+      "amount": -429800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1423056600000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "COMCAST",
+      "merchant": "Comcast",
+      "is-pending": False,
+      "transaction-time": "2015-02-03T15:32:00.000Z",
+      "amount": -832600,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1423017240000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "DOMINO'S 7815",
+      "merchant": "Domino's 7815",
+      "is-pending": False,
+      "transaction-time": "2015-02-02T15:11:00.000Z",
+      "amount": -64200,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1423001100000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "CREDIT CARD PAYMENT",
+      "merchant": "Credit Card Payment",
+      "is-pending": False,
+      "transaction-time": "2015-02-03T05:28:00.000Z",
+      "amount": 2000000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1422958380000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "ATM WITHDRAWAL",
+      "merchant": "ATM Withdrawal",
+      "is-pending": False,
+      "transaction-time": "2015-02-01T23:08:00.000Z",
+      "amount": -200000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1422940320000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "Petco Animal Supplies",
+      "merchant": "Petco Animal Supplies",
+      "is-pending": False,
+      "transaction-time": "2015-02-02T17:11:00.000Z",
+      "amount": -23100,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1422933960000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "CHECK",
+      "merchant": "Check",
+      "is-pending": False,
+      "transaction-time": "2015-02-03T03:07:00.000Z",
+      "amount": -8642900,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1422770580000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "Card Purchase PIZZA HUT #014361",
+      "merchant": "Pizza Hut #014361",
+      "is-pending": False,
+      "transaction-time": "2015-01-31T19:00:00.000Z",
+      "amount": -50600,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1422684840000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "KROGER LIMITED P 2009",
+      "merchant": "Kroger Limited P 2009",
+      "is-pending": False,
+      "transaction-time": "2015-01-30T23:32:00.000Z",
+      "amount": -331400,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1422669480000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "BURGER KING",
+      "merchant": "Burger King",
+      "is-pending": False,
+      "transaction-time": "2015-01-27T05:33:00.000Z",
+      "amount": -100800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1422664440000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "SUNOCO 0299792200",
+      "merchant": "Sunoco",
+      "is-pending": False,
+      "transaction-time": "2015-01-29T08:00:00.000Z",
+      "amount": -16400,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1422626940000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "TARGET",
+      "merchant": "Target",
+      "is-pending": False,
+      "transaction-time": "2015-01-27T20:33:00.000Z",
+      "amount": -44500,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1422388800000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "KROGER LIMITED P 2009",
+      "merchant": "Kroger Limited P 2009",
+      "is-pending": False,
+      "transaction-time": "2015-01-27T19:32:00.000Z",
+      "amount": -292500,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1422259320000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "MACARTHUR FORD",
+      "merchant": "MacArthur Ford",
+      "is-pending": False,
+      "transaction-time": "2015-01-26T08:00:00.000Z",
+      "amount": -1418700,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1422253560000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "DIRDEP",
+      "merchant": "Dirdep",
+      "is-pending": False,
+      "transaction-time": "2015-01-24T02:32:00.000Z",
+      "amount": 8925800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1422231900000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "FUEL CITY",
+      "merchant": "Fuel City",
+      "is-pending": False,
+      "transaction-time": "2015-01-25T18:37:00.000Z",
+      "amount": -169700,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1422211620000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "SUNOCO 0299792200",
+      "merchant": "Sunoco",
+      "is-pending": False,
+      "transaction-time": "2015-01-25T15:33:00.000Z",
+      "amount": -42600,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1422187440000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "DAIRY QUEEN",
+      "merchant": "Dairy Queen",
+      "is-pending": False,
+      "transaction-time": "2015-01-25T07:48:00.000Z",
+      "amount": -65200,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1421736840000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "POS PURCHASE - GAMESTOP 5732",
+      "merchant": "Gamestop 5732",
+      "is-pending": False,
+      "transaction-time": "2015-01-16T22:48:00.000Z",
+      "amount": -73500,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1421552760000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "CHECKCARD 1103 MCDONALD'S",
+      "merchant": "McDonald's",
+      "is-pending": False,
+      "transaction-time": "2015-01-17T14:58:00.000Z",
+      "amount": -83000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1421548740000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "WALGREENS",
+      "merchant": "Walgreens",
+      "is-pending": False,
+      "transaction-time": "2015-01-18T02:23:00.000Z",
+      "amount": -77700,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1421541000000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "FUEL CITY",
+      "merchant": "Fuel City",
+      "is-pending": False,
+      "transaction-time": "2015-01-15T20:38:00.000Z",
+      "amount": -372100,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1421522760000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "SUNOCO 0299792200",
+      "merchant": "Sunoco",
+      "is-pending": False,
+      "transaction-time": "2015-01-17T02:43:00.000Z",
+      "amount": -125400,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1421489160000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "VERIZON",
+      "merchant": "Verizon",
+      "is-pending": False,
+      "transaction-time": "2015-01-16T15:05:00.000Z",
+      "amount": -660800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1421444040000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "TACO BELL 021394",
+      "merchant": "Taco Bell 021394",
+      "is-pending": False,
+      "transaction-time": "2015-01-16T12:59:00.000Z",
+      "amount": -85600,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1421426400000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "ATM WITHDRAWAL",
+      "merchant": "ATM Withdrawal",
+      "is-pending": False,
+      "transaction-time": "2015-01-12T11:18:00.000Z",
+      "amount": -220000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1421250300000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "WMSUPERCENTER",
+      "merchant": "Wmsupercenter",
+      "is-pending": False,
+      "transaction-time": "2015-01-10T07:25:00.000Z",
+      "amount": -53400,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1421208360000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "ATM WITHDRAWAL",
+      "merchant": "ATM Withdrawal",
+      "is-pending": False,
+      "transaction-time": "2015-01-13T22:29:00.000Z",
+      "amount": -220000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1421197020000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "CC PAYMENT",
+      "merchant": "CC Payment",
+      "is-pending": False,
+      "transaction-time": "2015-01-11T11:18:00.000Z",
+      "amount": -2000000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1421022720000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "BURGER KING",
+      "merchant": "Burger King",
+      "is-pending": False,
+      "transaction-time": "2015-01-10T22:37:00.000Z",
+      "amount": -71400,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1420973580000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "NAIL LOVERS",
+      "merchant": "Nail Lovers",
+      "is-pending": False,
+      "transaction-time": "2015-01-09T02:07:00.000Z",
+      "amount": -590200,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1420884180000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "COSTCO",
+      "merchant": "Costco",
+      "is-pending": False,
+      "transaction-time": "2015-01-07T10:28:00.000Z",
+      "amount": -218400,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1420876380000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "DIRDEP",
+      "merchant": "Dirdep",
+      "is-pending": False,
+      "transaction-time": "2015-01-08T22:33:00.000Z",
+      "amount": 8925800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1420856940000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "7-ELEVEN 23853",
+      "merchant": "7-Eleven 23853",
+      "is-pending": False,
+      "transaction-time": "2015-01-06T00:17:00.000Z",
+      "amount": -94500,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1420807320000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "TACO BELL 021394",
+      "merchant": "Taco Bell 021394",
+      "is-pending": False,
+      "transaction-time": "2015-01-07T13:08:00.000Z",
+      "amount": -88200,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1420755240000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "CVS 00466 0046 PURCHASE CVS",
+      "merchant": "CVS 00466 0046 Purchase CVS",
+      "is-pending": False,
+      "transaction-time": "2015-01-05T19:50:00.000Z",
+      "amount": -67200,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1420642320000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "Card Purchase PIZZA HUT #014361",
+      "merchant": "Pizza Hut #014361",
+      "is-pending": False,
+      "transaction-time": "2015-01-04T13:45:00.000Z",
+      "amount": -79000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1420553760000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "COMCAST",
+      "merchant": "Comcast",
+      "is-pending": False,
+      "transaction-time": "2015-01-03T19:40:00.000Z",
+      "amount": -832600,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1420546560000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "PRONTO LLC",
+      "merchant": "Pronto LLC",
+      "is-pending": False,
+      "transaction-time": "2015-01-05T03:16:00.000Z",
+      "amount": -610300,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1420398900000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "CHECK",
+      "merchant": "Check",
+      "is-pending": False,
+      "transaction-time": "2015-01-03T11:35:00.000Z",
+      "amount": -8642900,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1420317900000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "7-ELEVEN 23853",
+      "merchant": "7-Eleven 23853",
+      "is-pending": False,
+      "transaction-time": "2015-01-02T09:35:00.000Z",
+      "amount": -44900,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1420307220000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "CREDIT CARD PAYMENT",
+      "merchant": "Credit Card Payment",
+      "is-pending": False,
+      "transaction-time": "2015-01-02T14:25:00.000Z",
+      "amount": 2000000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1420286400000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "DOLLAR GENERAL 8286",
+      "merchant": "Dollar General 8286",
+      "is-pending": False,
+      "transaction-time": "2014-12-30T06:01:00.000Z",
+      "amount": -36300,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1420250280000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "CHECKCARD 1103 MCDONALD'S",
+      "merchant": "McDonald's",
+      "is-pending": False,
+      "transaction-time": "2014-12-30T14:37:00.000Z",
+      "amount": -56300,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1420232400000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "SOAPS N SUDS",
+      "merchant": "Soaps N Suds",
+      "is-pending": False,
+      "transaction-time": "2015-01-01T21:25:00.000Z",
+      "amount": -506800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1420198920000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "COSTCO",
+      "merchant": "Costco",
+      "is-pending": False,
+      "transaction-time": "2014-12-31T14:20:00.000Z",
+      "amount": -274000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1420197540000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "DOLLAR TREE #02976 90",
+      "merchant": "Dollar Tree #02976 90",
+      "is-pending": False,
+      "transaction-time": "2015-01-01T05:52:00.000Z",
+      "amount": -34200,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1420082160000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "TARGET",
+      "merchant": "Target",
+      "is-pending": False,
+      "transaction-time": "2014-12-31T15:12:00.000Z",
+      "amount": -20800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1420033200000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "NAIL LOVERS",
+      "merchant": "Nail Lovers",
+      "is-pending": False,
+      "transaction-time": "2014-12-29T07:52:00.000Z",
+      "amount": -232400,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1419883380000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "WENDYS 9974",
+      "merchant": "Wendys 9974",
+      "is-pending": False,
+      "transaction-time": "2014-12-29T03:03:00.000Z",
+      "amount": -62100,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1419836100000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "KMART 7777",
+      "merchant": "Kmart 7777",
+      "is-pending": False,
+      "transaction-time": "2014-12-23T21:15:00.000Z",
+      "amount": -101700,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1419661500000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "MACARTHUR FORD",
+      "merchant": "MacArthur Ford",
+      "is-pending": False,
+      "transaction-time": "2014-12-26T16:01:00.000Z",
+      "amount": -1418700,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1419581220000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "DIRDEP",
+      "merchant": "Dirdep",
+      "is-pending": False,
+      "transaction-time": "2014-12-25T22:39:00.000Z",
+      "amount": 8925800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1419509280000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "THE HOME DEPOT 4702",
+      "merchant": "The Home Depot 4702",
+      "is-pending": False,
+      "transaction-time": "2014-12-24T11:47:00.000Z",
+      "amount": -309500,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1419505620000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "POS PURCHASE POS18758524 0363597 WHOLE FOODS",
+      "merchant": "Whole Foods",
+      "is-pending": False,
+      "transaction-time": "2014-12-22T18:12:00.000Z",
+      "amount": -361400,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1419476040000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "CHIPOTLE 1602 0065",
+      "merchant": "Chipotle 1602 0065",
+      "is-pending": False,
+      "transaction-time": "2014-12-23T11:51:00.000Z",
+      "amount": -70400,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1419379500000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "ATM WITHDRAWAL",
+      "merchant": "ATM Withdrawal",
+      "is-pending": False,
+      "transaction-time": "2014-12-23T08:07:00.000Z",
+      "amount": -220000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1419315240000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "Petco Animal Supplies",
+      "merchant": "Petco Animal Supplies",
+      "is-pending": False,
+      "transaction-time": "2014-12-22T15:48:00.000Z",
+      "amount": -82000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1419313320000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "DOMINO'S 7815",
+      "merchant": "Domino's 7815",
+      "is-pending": False,
+      "transaction-time": "2014-12-21T21:14:00.000Z",
+      "amount": -73700,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1419281460000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "ATM WITHDRAWAL",
+      "merchant": "ATM Withdrawal",
+      "is-pending": False,
+      "transaction-time": "2014-12-21T11:03:00.000Z",
+      "amount": -820000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1419019200000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "NAIL LOVERS",
+      "merchant": "Nail Lovers",
+      "is-pending": False,
+      "transaction-time": "2014-12-17T22:02:00.000Z",
+      "amount": -211200,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1418996220000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "CHIPOTLE 1602 0065",
+      "merchant": "Chipotle 1602 0065",
+      "is-pending": False,
+      "transaction-time": "2014-12-18T13:13:00.000Z",
+      "amount": -58700,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1418948400000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "CHECK CRD PURCHASE KFC D181002 8301 425907XXXXXX5869 384061094603982 ?MCC=5814",
+      "merchant": "KFC D181002 8301",
+      "is-pending": False,
+      "transaction-time": "2014-12-18T09:55:00.000Z",
+      "amount": -40300,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1418946900000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "CVS 00466 0046 PURCHASE CVS",
+      "merchant": "CVS 00466 0046 Purchase CVS",
+      "is-pending": False,
+      "transaction-time": "2014-12-18T15:19:00.000Z",
+      "amount": -24400,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1418902500000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "SHELL OIL 57544422702",
+      "merchant": "Shell Oil",
+      "is-pending": False,
+      "transaction-time": "2014-12-14T23:23:00.000Z",
+      "amount": -36200,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1418883360000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "Amazon.com AMZN.COM/BILLWA",
+      "merchant": "Amazon.com Amzn.com/Billwa",
+      "is-pending": False,
+      "transaction-time": "2014-12-15T10:18:00.000Z",
+      "amount": -438800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1418838420000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "DOLLAR GENERAL 8286",
+      "merchant": "Dollar General 8286",
+      "is-pending": False,
+      "transaction-time": "2014-12-16T12:53:00.000Z",
+      "amount": -61100,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1418806800000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "Card Purchase BUFFALO WILD WINGS",
+      "merchant": "Buffalo Wild Wings",
+      "is-pending": False,
+      "transaction-time": "2014-12-14T10:05:00.000Z",
+      "amount": -72100,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1418797980000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "KOHL'S #0323",
+      "merchant": "Kohl's #0323",
+      "is-pending": False,
+      "transaction-time": "2014-12-16T10:30:00.000Z",
+      "amount": -323000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1418742480000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "VERIZON",
+      "merchant": "Verizon",
+      "is-pending": False,
+      "transaction-time": "2014-12-16T04:36:00.000Z",
+      "amount": -660800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1418521320000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "CC PAYMENT",
+      "merchant": "CC Payment",
+      "is-pending": False,
+      "transaction-time": "2014-12-12T06:18:00.000Z",
+      "amount": -2000000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1418437380000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "ATM WITHDRAWAL",
+      "merchant": "ATM Withdrawal",
+      "is-pending": False,
+      "transaction-time": "2014-12-12T13:51:00.000Z",
+      "amount": -820000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1418385360000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "DIRDEP",
+      "merchant": "Dirdep",
+      "is-pending": False,
+      "transaction-time": "2014-12-11T07:11:00.000Z",
+      "amount": 8925800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1418204520000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "7-ELEVEN 23853",
+      "merchant": "7-Eleven 23853",
+      "is-pending": False,
+      "transaction-time": "2014-12-08T02:36:00.000Z",
+      "amount": -105900,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1418128560000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "WENDYS 9974",
+      "merchant": "Wendys 9974",
+      "is-pending": False,
+      "transaction-time": "2014-12-07T05:55:00.000Z",
+      "amount": -106600,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1418100720000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "COSTCO",
+      "merchant": "Costco",
+      "is-pending": False,
+      "transaction-time": "2014-12-07T06:04:00.000Z",
+      "amount": -282200,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1418099640000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "H&M",
+      "merchant": "H&M",
+      "is-pending": False,
+      "transaction-time": "2014-12-05T02:22:00.000Z",
+      "amount": -58200,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1418078700000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "KOHL'S #0323",
+      "merchant": "Kohl's #0323",
+      "is-pending": False,
+      "transaction-time": "2014-12-06T07:07:00.000Z",
+      "amount": -355400,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1417992060000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "TACO BELL 021394",
+      "merchant": "Taco Bell 021394",
+      "is-pending": False,
+      "transaction-time": "2014-12-05T08:29:00.000Z",
+      "amount": -70200,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1417886700000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "COMCAST",
+      "merchant": "Comcast",
+      "is-pending": False,
+      "transaction-time": "2014-12-05T05:38:00.000Z",
+      "amount": -832600,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1417728960000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "CHIPOTLE 1602 0065",
+      "merchant": "Chipotle 1602 0065",
+      "is-pending": False,
+      "transaction-time": "2014-12-03T04:48:00.000Z",
+      "amount": -45000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1417724760000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "POS PUR FROM BARNESNOBLE 13800",
+      "merchant": "From Barnesnoble 13800",
+      "is-pending": False,
+      "transaction-time": "2014-12-01T00:42:00.000Z",
+      "amount": -488000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1417665060000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "CHECK",
+      "merchant": "Check",
+      "is-pending": False,
+      "transaction-time": "2014-12-03T12:23:00.000Z",
+      "amount": -8642900,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1417643220000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "CREDIT CARD PAYMENT",
+      "merchant": "Credit Card Payment",
+      "is-pending": False,
+      "transaction-time": "2014-12-03T05:02:00.000Z",
+      "amount": 2000000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1417601100000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "WMSUPERCENTER",
+      "merchant": "Wmsupercenter",
+      "is-pending": False,
+      "transaction-time": "2014-12-02T20:11:00.000Z",
+      "amount": -33800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1417551360000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "BEST BUY #257",
+      "merchant": "Best Buy #257",
+      "is-pending": False,
+      "transaction-time": "2014-12-02T16:32:00.000Z",
+      "amount": -150500,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1417486740000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "TACO BELL 021394",
+      "merchant": "Taco Bell 021394",
+      "is-pending": False,
+      "transaction-time": "2014-12-01T07:01:00.000Z",
+      "amount": -50200,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1417394940000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "SUNOCO 0299792200",
+      "merchant": "Sunoco",
+      "is-pending": False,
+      "transaction-time": "2014-11-30T09:10:00.000Z",
+      "amount": -20400,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1417364340000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "ATM WITHDRAWAL",
+      "merchant": "ATM Withdrawal",
+      "is-pending": False,
+      "transaction-time": "2014-11-27T01:44:00.000Z",
+      "amount": -200000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1417347180000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "Petco Animal Supplies",
+      "merchant": "Petco Animal Supplies",
+      "is-pending": False,
+      "transaction-time": "2014-11-29T05:18:00.000Z",
+      "amount": -41600,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1417333620000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "Wal-Mart Super Center",
+      "merchant": "Wal-Mart Super Center",
+      "is-pending": False,
+      "transaction-time": "2014-11-28T06:14:00.000Z",
+      "amount": -324300,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1417303800000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "CHECKCARD 1103 MCDONALD'S",
+      "merchant": "McDonald's",
+      "is-pending": False,
+      "transaction-time": "2014-11-28T11:36:00.000Z",
+      "amount": -114200,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1417283520000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "DIRDEP",
+      "merchant": "Dirdep",
+      "is-pending": False,
+      "transaction-time": "2014-11-27T14:14:00.000Z",
+      "amount": 8925800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1417273140000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "ATM WITHDRAWAL",
+      "merchant": "ATM Withdrawal",
+      "is-pending": False,
+      "transaction-time": "2014-11-26T13:31:00.000Z",
+      "amount": -820000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1417103700000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "MACARTHUR FORD",
+      "merchant": "MacArthur Ford",
+      "is-pending": False,
+      "transaction-time": "2014-11-26T01:39:00.000Z",
+      "amount": -1418700,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1416547500000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "QDOBA",
+      "merchant": "Qdoba",
+      "is-pending": False,
+      "transaction-time": "2014-11-16T09:07:00.000Z",
+      "amount": -85800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1416376440000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "CVS 00466 0046 PURCHASE CVS",
+      "merchant": "CVS 00466 0046 Purchase CVS",
+      "is-pending": False,
+      "transaction-time": "2014-11-17T21:59:00.000Z",
+      "amount": -150800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1416368280000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "Wal-Mart Super Center",
+      "merchant": "Wal-Mart Super Center",
+      "is-pending": False,
+      "transaction-time": "2014-11-16T08:21:00.000Z",
+      "amount": -164900,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1416360780000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "SHELL Service Station",
+      "merchant": "Shell Service Station",
+      "is-pending": False,
+      "transaction-time": "2014-11-14T00:30:00.000Z",
+      "amount": -343500,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1416317160000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "4917 SUBWAY",
+      "merchant": "Subway",
+      "is-pending": False,
+      "transaction-time": "2014-11-18T03:32:00.000Z",
+      "amount": -65100,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1416293820000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "COSTCO",
+      "merchant": "Costco",
+      "is-pending": False,
+      "transaction-time": "2014-11-18T05:49:00.000Z",
+      "amount": -192800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1416277920000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "VERIZON",
+      "merchant": "Verizon",
+      "is-pending": False,
+      "transaction-time": "2014-11-15T17:09:00.000Z",
+      "amount": -660800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1416198900000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "DOLLAR TREE #02976 90",
+      "merchant": "Dollar Tree #02976 90",
+      "is-pending": False,
+      "transaction-time": "2014-11-13T16:59:00.000Z",
+      "amount": -123800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1416178740000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "KMART 7777",
+      "merchant": "Kmart 7777",
+      "is-pending": False,
+      "transaction-time": "2014-11-16T06:25:00.000Z",
+      "amount": -33700,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1416174180000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "DAIRY QUEEN",
+      "merchant": "Dairy Queen",
+      "is-pending": False,
+      "transaction-time": "2014-11-15T08:59:00.000Z",
+      "amount": -46100,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1416137400000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "Starbucks",
+      "merchant": "Starbucks",
+      "is-pending": False,
+      "transaction-time": "2014-11-16T07:36:00.000Z",
+      "amount": -118200,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1416129960000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "Wal-Mart Super Center",
+      "merchant": "Wal-Mart Super Center",
+      "is-pending": False,
+      "transaction-time": "2014-11-16T08:57:00.000Z",
+      "amount": -464700,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1416108540000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "BURGER KING",
+      "merchant": "Burger King",
+      "is-pending": False,
+      "transaction-time": "2014-11-12T15:28:00.000Z",
+      "amount": -116300,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1416106080000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "4917 SONIC DRIVE IN #2545",
+      "merchant": "Sonic Drive In #2545",
+      "is-pending": False,
+      "transaction-time": "2014-11-15T08:46:00.000Z",
+      "amount": -82000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1416029460000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "DIRDEP",
+      "merchant": "Dirdep",
+      "is-pending": False,
+      "transaction-time": "2014-11-14T11:33:00.000Z",
+      "amount": 8925800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1416023700000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "SHOPTRN*Thule",
+      "merchant": "Shoptrn*Thule",
+      "is-pending": False,
+      "transaction-time": "2014-11-12T18:47:00.000Z",
+      "amount": -319300,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1415986200000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "WMSUPERCENTER",
+      "merchant": "Wmsupercenter",
+      "is-pending": False,
+      "transaction-time": "2014-11-13T16:02:00.000Z",
+      "amount": -44100,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1415874300000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "CC PAYMENT",
+      "merchant": "CC Payment",
+      "is-pending": False,
+      "transaction-time": "2014-11-12T18:55:00.000Z",
+      "amount": -2000000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1415738040000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "ATM WITHDRAWAL",
+      "merchant": "ATM Withdrawal",
+      "is-pending": False,
+      "transaction-time": "2014-11-09T10:55:00.000Z",
+      "amount": -820000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1415479680000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "BEST BUY #257",
+      "merchant": "Best Buy #257",
+      "is-pending": False,
+      "transaction-time": "2014-11-06T07:17:00.000Z",
+      "amount": -301100,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1415414820000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "ATM WITHDRAWAL",
+      "merchant": "ATM Withdrawal",
+      "is-pending": False,
+      "transaction-time": "2014-11-05T22:18:00.000Z",
+      "amount": -820000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1415397060000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "Starbucks",
+      "merchant": "Starbucks",
+      "is-pending": False,
+      "transaction-time": "2014-11-06T21:14:00.000Z",
+      "amount": -98700,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1415388240000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "DAIRY QUEEN",
+      "merchant": "Dairy Queen",
+      "is-pending": False,
+      "transaction-time": "2014-11-05T18:08:00.000Z",
+      "amount": -77900,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1415200320000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "COMCAST",
+      "merchant": "Comcast",
+      "is-pending": False,
+      "transaction-time": "2014-11-04T12:10:00.000Z",
+      "amount": -832600,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1415042820000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "CREDIT CARD PAYMENT",
+      "merchant": "Credit Card Payment",
+      "is-pending": False,
+      "transaction-time": "2014-11-03T18:58:00.000Z",
+      "amount": 2000000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1415021520000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "CHECK",
+      "merchant": "Check",
+      "is-pending": False,
+      "transaction-time": "2014-11-03T12:00:00.000Z",
+      "amount": -8642900,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1414910760000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "ATM WITHDRAWAL",
+      "merchant": "ATM Withdrawal",
+      "is-pending": False,
+      "transaction-time": "2014-11-02T06:25:00.000Z",
+      "amount": -820000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1414696020000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "KROGER LIMITED P 2009",
+      "merchant": "Kroger Limited P 2009",
+      "is-pending": False,
+      "transaction-time": "2014-10-27T15:29:00.000Z",
+      "amount": -272600,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1414625640000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "ATM WITHDRAWAL",
+      "merchant": "ATM Withdrawal",
+      "is-pending": False,
+      "transaction-time": "2014-10-29T11:47:00.000Z",
+      "amount": -800000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1414548960000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "WENDYS 9974",
+      "merchant": "Wendys 9974",
+      "is-pending": False,
+      "transaction-time": "2014-10-27T08:53:00.000Z",
+      "amount": -53400,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1414516440000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "H&M",
+      "merchant": "H&M",
+      "is-pending": False,
+      "transaction-time": "2014-10-27T06:50:00.000Z",
+      "amount": -60300,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1414515000000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "4917 SONIC DRIVE IN #2545",
+      "merchant": "Sonic Drive In #2545",
+      "is-pending": False,
+      "transaction-time": "2014-10-27T20:17:00.000Z",
+      "amount": -50700,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1414485600000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "MACARTHUR FORD",
+      "merchant": "MacArthur Ford",
+      "is-pending": False,
+      "transaction-time": "2014-10-25T07:20:00.000Z",
+      "amount": -1418700,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1414478160000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "Starbucks",
+      "merchant": "Starbucks",
+      "is-pending": False,
+      "transaction-time": "2014-10-28T02:25:00.000Z",
+      "amount": -57600,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1414461120000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "NAIL LOVERS",
+      "merchant": "Nail Lovers",
+      "is-pending": False,
+      "transaction-time": "2014-10-26T12:13:00.000Z",
+      "amount": -349500,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1414455300000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "SOAPS N SUDS",
+      "merchant": "Soaps N Suds",
+      "is-pending": False,
+      "transaction-time": "2014-10-27T19:42:00.000Z",
+      "amount": -616500,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1414410360000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "ATM WITHDRAWAL",
+      "merchant": "ATM Withdrawal",
+      "is-pending": False,
+      "transaction-time": "2014-10-25T02:55:00.000Z",
+      "amount": -220000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1414309980000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "SUNOCO 0299792200",
+      "merchant": "Sunoco",
+      "is-pending": False,
+      "transaction-time": "2014-10-25T22:50:00.000Z",
+      "amount": -71300,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1414270020000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "DOMINO'S 7815",
+      "merchant": "Domino's 7815",
+      "is-pending": False,
+      "transaction-time": "2014-10-24T16:29:00.000Z",
+      "amount": -72800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1414266720000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "7-ELEVEN 23853",
+      "merchant": "7-Eleven 23853",
+      "is-pending": False,
+      "transaction-time": "2014-10-24T06:19:00.000Z",
+      "amount": -21000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1414252140000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "CHECK CRD PURCHASE KFC D181002 8301 425907XXXXXX5869 384061094603982 ?MCC=5814",
+      "merchant": "KFC D181002 8301",
+      "is-pending": False,
+      "transaction-time": "2014-10-25T15:30:00.000Z",
+      "amount": -54800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1414203360000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "DIRDEP",
+      "merchant": "Dirdep",
+      "is-pending": False,
+      "transaction-time": "2014-10-24T12:36:00.000Z",
+      "amount": 8925800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1414158720000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "Amazon.com AMZN.COM/BILLWA",
+      "merchant": "Amazon.com Amzn.com/Billwa",
+      "is-pending": False,
+      "transaction-time": "2014-10-23T16:54:00.000Z",
+      "amount": -111500,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1414032600000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "4917 SUBWAY",
+      "merchant": "Subway",
+      "is-pending": False,
+      "transaction-time": "2014-10-20T14:22:00.000Z",
+      "amount": -108400,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1413978480000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "KOHL'S #0323",
+      "merchant": "Kohl's #0323",
+      "is-pending": False,
+      "transaction-time": "2014-10-21T22:11:00.000Z",
+      "amount": -156600,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1413925440000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "WALGREENS",
+      "merchant": "Walgreens",
+      "is-pending": False,
+      "transaction-time": "2014-10-20T20:04:00.000Z",
+      "amount": -24800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1413899100000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "ATM WITHDRAWAL",
+      "merchant": "ATM Withdrawal",
+      "is-pending": False,
+      "transaction-time": "2014-10-20T12:53:00.000Z",
+      "amount": -820000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1413618600000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "GIANT EAG 1201",
+      "merchant": "Giant Eag 1201",
+      "is-pending": False,
+      "transaction-time": "2014-10-16T09:24:00.000Z",
+      "amount": -432400,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1413616560000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "CHECKCARD 1103 MCDONALD'S",
+      "merchant": "McDonald's",
+      "is-pending": False,
+      "transaction-time": "2014-10-15T23:51:00.000Z",
+      "amount": -53800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1413571860000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "CVS 00466 0046 PURCHASE CVS",
+      "merchant": "CVS 00466 0046 Purchase CVS",
+      "is-pending": False,
+      "transaction-time": "2014-10-16T12:28:00.000Z",
+      "amount": -57300,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1413399540000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "VERIZON",
+      "merchant": "Verizon",
+      "is-pending": False,
+      "transaction-time": "2014-10-15T13:24:00.000Z",
+      "amount": -660800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1413360120000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "CC PAYMENT",
+      "merchant": "CC Payment",
+      "is-pending": False,
+      "transaction-time": "2014-10-12T02:28:00.000Z",
+      "amount": -2000000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1413263400000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "POS PURCHASE POS18758524 0363597 WHOLE FOODS",
+      "merchant": "Whole Foods",
+      "is-pending": False,
+      "transaction-time": "2014-10-12T09:10:00.000Z",
+      "amount": -371500,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1413178380000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "DOMINO'S 7815",
+      "merchant": "Domino's 7815",
+      "is-pending": False,
+      "transaction-time": "2014-10-12T03:56:00.000Z",
+      "amount": -93000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1413055260000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "KMART 7777",
+      "merchant": "Kmart 7777",
+      "is-pending": False,
+      "transaction-time": "2014-10-11T16:23:00.000Z",
+      "amount": -57100,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1413020100000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "DIRDEP",
+      "merchant": "Dirdep",
+      "is-pending": False,
+      "transaction-time": "2014-10-11T00:49:00.000Z",
+      "amount": 8925800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1412979780000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "WALGREENS",
+      "merchant": "Walgreens",
+      "is-pending": False,
+      "transaction-time": "2014-10-08T01:35:00.000Z",
+      "amount": -24100,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1412942220000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "GIANT EAG 1201",
+      "merchant": "Giant Eag 1201",
+      "is-pending": False,
+      "transaction-time": "2014-10-08T09:24:00.000Z",
+      "amount": -188800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1412750220000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "DAIRY QUEEN",
+      "merchant": "Dairy Queen",
+      "is-pending": False,
+      "transaction-time": "2014-10-07T21:16:00.000Z",
+      "amount": -49200,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1412563500000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "ATM WITHDRAWAL",
+      "merchant": "ATM Withdrawal",
+      "is-pending": False,
+      "transaction-time": "2014-10-04T19:55:00.000Z",
+      "amount": -800000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1412406720000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "CHECK",
+      "merchant": "Check",
+      "is-pending": False,
+      "transaction-time": "2014-10-03T04:33:00.000Z",
+      "amount": -8642900,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1412400600000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "COMCAST",
+      "merchant": "Comcast",
+      "is-pending": False,
+      "transaction-time": "2014-10-03T22:32:00.000Z",
+      "amount": -832600,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1412364360000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "CREDIT CARD PAYMENT",
+      "merchant": "Credit Card Payment",
+      "is-pending": False,
+      "transaction-time": "2014-10-03T16:28:00.000Z",
+      "amount": 2000000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1412223660000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "Card Purchase BUFFALO WILD WINGS",
+      "merchant": "Buffalo Wild Wings",
+      "is-pending": False,
+      "transaction-time": "2014-09-28T08:49:00.000Z",
+      "amount": -81300,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1412099340000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "THE UPS STORE",
+      "merchant": "The Ups Store",
+      "is-pending": False,
+      "transaction-time": "2014-09-27T04:05:00.000Z",
+      "amount": -388700,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1411963080000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "KOHL'S #0323",
+      "merchant": "Kohl's #0323",
+      "is-pending": False,
+      "transaction-time": "2014-09-28T12:05:00.000Z",
+      "amount": -139400,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1411944960000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "CVS 00466 0046 PURCHASE CVS",
+      "merchant": "CVS 00466 0046 Purchase CVS",
+      "is-pending": False,
+      "transaction-time": "2014-09-28T01:22:00.000Z",
+      "amount": -114000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1411932780000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "MACARTHUR FORD",
+      "merchant": "MacArthur Ford",
+      "is-pending": False,
+      "transaction-time": "2014-09-27T15:01:00.000Z",
+      "amount": -1418700,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1411920300000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "Starbucks",
+      "merchant": "Starbucks",
+      "is-pending": False,
+      "transaction-time": "2014-09-28T01:56:00.000Z",
+      "amount": -101000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1411874280000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "ATM WITHDRAWAL",
+      "merchant": "ATM Withdrawal",
+      "is-pending": False,
+      "transaction-time": "2014-09-26T06:22:00.000Z",
+      "amount": -800000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1411869240000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "DIRDEP",
+      "merchant": "Dirdep",
+      "is-pending": False,
+      "transaction-time": "2014-09-25T22:30:00.000Z",
+      "amount": 8925800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1411789200000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "QDOBA",
+      "merchant": "Qdoba",
+      "is-pending": False,
+      "transaction-time": "2014-09-26T20:42:00.000Z",
+      "amount": -48000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1411032720000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "VERIZON",
+      "merchant": "Verizon",
+      "is-pending": False,
+      "transaction-time": "2014-09-17T16:58:00.000Z",
+      "amount": -660800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1410727200000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "DIRDEP",
+      "merchant": "Dirdep",
+      "is-pending": False,
+      "transaction-time": "2014-09-13T21:24:00.000Z",
+      "amount": 8925800,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1410636960000",
+      "account-id": "nonce:struggling-checking/struggling",
+      "raw-merchant": "CC PAYMENT",
+      "merchant": "CC Payment",
+      "is-pending": False,
+      "transaction-time": "2014-09-12T20:30:00.000Z",
+      "amount": -2000000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1410425040000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "ATM WITHDRAWAL",
+      "merchant": "ATM Withdrawal",
+      "is-pending": False,
+      "transaction-time": "2014-09-10T09:44:00.000Z",
+      "amount": -800000,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1410414540000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "PetSmart",
+      "merchant": "Petsmart",
+      "is-pending": False,
+      "transaction-time": "2014-09-07T12:50:00.000Z",
+      "amount": -279200,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1410290820000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "DOLLAR TREE #02976 90",
+      "merchant": "Dollar Tree #02976 90",
+      "is-pending": False,
+      "transaction-time": "2014-09-08T00:03:00.000Z",
+      "amount": -47300,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "1410239820000",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "7-ELEVEN 23853",
+      "merchant": "7-Eleven 23853",
+      "is-pending": False,
+      "transaction-time": "2014-09-07T16:21:00.000Z",
+      "amount": -51600,
+      "categorization": "Unknown"
+    },
+    {
+      "transaction-id": "pending:pending--0.05782032795672172",
+      "account-id": "nonce:struggling-cc/struggling",
+      "raw-merchant": "QDOBA",
+      "merchant": "Qdoba",
+      "is-pending": True,
+      "transaction-time": "2015-03-06T19:22:00.000Z",
+      "amount": -51100,
+      "categorization": "Unknown"
+    }
+  ],
+  "error": "no-error"
+}
