@@ -182,6 +182,7 @@ def get_savings_graph():
   
 @app.route("/get-savings-graph", methods=['GET'])
 @app.route("/get-investment-graph", methods=['GET'])
+@jsonp
 def get_investment_graph():
   user = request.args.get('user')
   if user is None: user = "poor"
@@ -318,7 +319,7 @@ def get_investment_graph():
   
   plot_url = plotly.plot(data_all, filename=plot_filename, auto_open=False);
   
-  
+  return jsonify({'url': plot_url })
   return plot_url;
       
   return r.text            
