@@ -152,8 +152,7 @@ def call_user():
   return "We may have called the user by this point";
 
 
-#If save_latte isn't called at least once for the user first, this might crash
-@app.route("/get-savings-graph", methods=['GET'])
+#@app.route("/get-savings-graph", methods=['GET'])
 @jsonp
 def get_savings_graph():
   user = request.args.get('user')
@@ -181,6 +180,149 @@ def get_savings_graph():
   return jsonify({'url': plot_url })
   
   
+@app.route("/get-savings-graph", methods=['GET'])
+@app.route("/get-investment-graph", methods=['GET'])
+def get_investment_graph():
+  user = request.args.get('user')
+  if user is None: user = "poor"
+  print "Generating graph for user: %s" % (user)
+  
+  url = "http://navs.xignite.com/v2/xNAVs.json/GetHistoricalNAVs"
+  BOND_SYMBOL = "VBTLX"
+  api_token = app.config['XIGNITE_TOKEN']
+  payload = {
+              '_Token'          : api_token,
+              'IdentifierType'  : "Symbol" , 
+              'Identifier'      : BOND_SYMBOL ,
+              'StartDate'       : "1/1/2014" ,
+              'EndDate'         : "3/6/2015" ,
+              'AdjustmentMethod': "None"
+              }
+  
+  r = requests.get(url, params=payload)
+  #print r.text
+  #print r.json()
+  bond_data = r.json();
+
+  
+  STOCK_SYMBOL = "VTSAX"
+  payload = {
+              '_Token'          : api_token,
+              'IdentifierType'  : "Symbol" , 
+              'Identifier'      : STOCK_SYMBOL ,
+              'StartDate'       : "1/1/2014" ,
+              'EndDate'         : "3/6/2015" ,
+              'AdjustmentMethod': "None"
+              }
+  
+  r = requests.get(url, params=payload)  
+  stock_data = r.json();
+  
+  #user = "normal"
+  saveFile = user + "_saved"
+  
+  earliestDate = datetime.datetime.now()
+  
+  savings = [];
+  
+  if os.path.exists(saveFile):
+    with open(saveFile, "r") as myfile:
+      for line in myfile:
+        saveItem = eval(line)
+        thisDate = saveItem["datetime"]
+        thisSavings = saveItem["amount"];
+        if(thisDate < earliestDate):
+          earliestDate = thisDate
+        thisTuple = (thisDate, thisSavings);
+        savings.append(thisTuple);
+        
+  print "Earliest date : " + str(earliestDate);
+  
+  our_bond_prices = [];
+  our_stock_prices = [];
+  
+  prices_bonds  = bond_data["NAVs"]
+  prices_stocks = stock_data["NAVs"]
+  for bond_price in prices_bonds:
+    stock_price = prices_stocks.pop(0);
+    thisDate  = datetime.datetime.strptime( bond_price["Date"] , "%m/%d/%Y" );
+    thisBondPrice  = float(bond_price["NAV"])
+    thisStockPrice = float(stock_price["NAV"])
+    thisBondTuple  = (thisDate, thisBondPrice)
+    thisStockTuple = (thisDate, thisStockPrice)
+    
+    if(thisDate >= earliestDate):  
+      our_bond_prices.insert(0, thisBondTuple) #reverse order by always putting at begging of list
+      our_stock_prices.insert(0, thisStockTuple);
+      #print thisTuple
+    #print "%s : %f " % (datetime.datetime.strptime( price["Date"] , "%m/%d/%Y"), price["NAV"])
+  
+  #print bond_prices;
+  
+  x_savings = [];
+  x_bonds = [];
+  x_stocks = [];
+  y_savings = [];
+  y_bonds = [];
+  y_stocks = [];
+  cumulative_savings = 0;
+  surplus_savings = 0;
+  num_bonds = 0;
+  num_stocks = 0;
+
+  for price_data in savings:
+    print price_data
+    
+    x_savings.append(price_data[0]) #date
+    surplus_savings += price_data[1]
+    cumulative_savings += price_data[1] #amount saved
+    y_savings.append(cumulative_savings);
+    print cumulative_savings
+    
+    print "Savings: %s , %f " % (str(price_data[0]) , cumulative_savings)
+    
+    while our_bond_prices:
+      this_bond_data = our_bond_prices.pop(0)
+      this_stock_data = our_stock_prices.pop(0);
+      if (price_data[0] >= this_bond_data[0]): #compare dates, ignore weekendds etc where no market data
+        continue
+      
+      if(surplus_savings > 0):
+        num_bonds  += surplus_savings / this_bond_data[1];
+        num_stocks += surplus_savings / this_stock_data[1];
+        surplus_savings = 0;
+        
+      if(num_bonds > 0):
+        bonds_value  = num_bonds * this_bond_data[1]
+        stocks_value = num_stocks * this_stock_data[1]
+        
+        x_bonds.append(this_bond_data[0])
+        y_bonds.append(bonds_value)
+        
+        x_stocks.append(this_stock_data[0])
+        y_stocks.append(stocks_value);
+        
+        print "Bonds: %s , %f " % (str(this_bond_data[0]) , bonds_value)  
+        print "Stocks: %s , %f " % (str(this_stock_data[0]) , stocks_value)  
+      
+      
+      break; #break bond prices loop
+        
+  trace_savings   = Scatter(x=x_savings, y=y_savings, name='Savings Account')
+  trace_bonds     = Scatter(x=x_bonds, y=y_bonds, name='Bond Fund')
+  trace_stocks   = Scatter(x=x_stocks, y=y_stocks, name='Stock Fund')
+  
+  data_all = Data( [trace_savings, trace_bonds, trace_stocks] );
+
+  plot_filename = user + "investment_plot"
+  
+  plot_url = plotly.plot(data_all, filename=plot_filename, auto_open=False);
+  
+  
+  return plot_url;
+      
+  return r.text            
+  return "Getting graph from: " + url + "for " + BOND_SYMBOL + " using " + api_token;
 
 
 @app.route("/")
@@ -190,4 +332,5 @@ def hello():
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0')
+    #app.run(debug=True)
 

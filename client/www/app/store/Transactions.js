@@ -5,7 +5,7 @@ var localIP = '10.90.1.151';
 
 console.log('in store file');
 
-Ext.define('Latte_Factor.model.User', {
+Ext.define('User', {
     extend: 'Ext.data.Model',
     config: {
         fields: [{
@@ -18,9 +18,9 @@ Ext.define('Latte_Factor.model.User', {
     }
 });
 
-var user = Ext.create('Latte_Factor.model.User');
+var user = Ext.create('User');
 user.set('ambition', 1);
-user.set('type', 'normal');
+user.set('type', 'rich');
 Ext.define('Latte_Factor.model.Transaction', {
     extend: 'Ext.data.Model',
     config: {
@@ -32,10 +32,7 @@ Ext.define('Latte_Factor.model.Transaction', {
 
 Ext.define('Latte_Factor.store.Transactions', {
     config: {
-        requires: [
-            'Ext.data.proxy.JsonP', 
-            'Latte_Factor.model.Transaction'
-        ],
+        requires: ['Ext.data.proxy.JsonP'],
         storeId: 'userTransactions',
         autoLoad: true,
         model: 'Latte_Factor.model.Transaction',
