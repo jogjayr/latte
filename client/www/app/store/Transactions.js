@@ -1,6 +1,26 @@
 /*global Ext*/
 'use strict';
 console.log('in store file');
+var localIP = '192.168.1.68';
+var localIP = '192.168.1.68';
+console.log('in store file');
+
+Ext.define('User', {
+    extend: 'Ext.data.Model',
+    config: {
+        fields: [{
+            name: 'ambition',
+            type: 'int'
+        }, {
+            name: 'type',
+            type: 'string'
+        }]
+    }
+});
+
+var user = Ext.create('User');
+user.set('ambition', 1);
+user.set('type', 'rich');
 Ext.define('Latte_Factor.model.Transaction', {
     extend: 'Ext.data.Model',
     config: {
@@ -18,7 +38,7 @@ Ext.define('Latte_Factor.store.Transactions', {
         model: 'Latte_Factor.model.Transaction',
         proxy: {
             type: 'jsonp',
-            url: 'http://192.168.1.68:5000/get-transactions',
+            url: 'http://'+ localIP +':5000/get-transactions?user=' + user.get('type'),
             reader: {
                 type:'json',
                 rootProperty: 'transactions'

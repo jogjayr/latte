@@ -1,49 +1,11 @@
 /*global cordova*/
 /*global Ext*/
 'use strict';
-var localIP = '192.168.1.68';
-console.log('in store file');
-Ext.define('Latte_Factor.model.Transaction', {
-    extend: 'Ext.data.Model',
-    config: {
-        fields: [
-            'account-id', 'amount', 'categorization', 'is-pending', 'merchant', 'raw-merchant', 'transaction-id', 'transaction-time'
-        ]
-    }
-});
 
-Ext.define('Latte_Factor.store.Transactions', {
-    config: {
-        requires: ['Ext.data.proxy.JsonP'],
-        storeId: 'userTransactions',
-        autoLoad: true,
-        model: 'Latte_Factor.model.Transaction',
-        proxy: {
-            type: 'jsonp',
-            url: 'http://'+ localIP +':5000/get-transactions',
-            reader: {
-                type:'json',
-                rootProperty: 'transactions'
-            }
-        }
-    },
-    
-    extend: 'Ext.data.Store'
-});
 
 var transactions = Ext.create('Latte_Factor.store.Transactions', {});
-Ext.define('User', {
-    extend: 'Ext.data.Model',
-    config: {
-        fields: [{
-            name: 'ambition',
-            type: 'int'
-        }]
-    }
-});
 
-var user = Ext.create('User');
-user.set('ambition', 1);
+
 
 Ext.define('Latte_Factor.view.Main', {
     extend: 'Ext.tab.Panel',
@@ -63,13 +25,13 @@ Ext.define('Latte_Factor.view.Main', {
             scrollable: true,
             store: transactions,
             itemTpl: new Ext.XTemplate(
-                '<div>{categorization/}</div>',
-                '<tpl if="amount &lt; 0">',
-                '<div class="red">-${amount / -10000}</div>',
-                '</tpl>',
-                '<tpl if="amount &gt; 0">',
-                '<div class="green">${amount/10000}</div>',
-                '</tpl>')
+                    '<div>{categorization}</div>',
+                    '<tpl if="amount &lt; 0">',
+                        '<div class="red">-${amount / -10000}</div>',
+                    '</tpl>',
+                    '<tpl if="amount &gt; 0">',
+                        '<div class="green">${amount/10000}</div>',
+                    '</tpl>')
         }, {
             title: 'Progress',
             iconCls: 'calendar',
@@ -81,6 +43,7 @@ Ext.define('Latte_Factor.view.Main', {
                     scope: this,
                     'tap': function() {
                         console.log('clicked on this invisible area');
+                        displayNotification();
                     }
                 }
             }]
@@ -139,9 +102,14 @@ function onDeviceReady() {
         console.log('onclear', arguments);
         var userAmbition = user.get('ambition');
         if (userAmbition === 3) {
-            showToast('I\'m sorry Dave, but I can\'t let you do that');
-
             //place a phone call
+            showToast('I\'m sorry Dave, but I can\'t let you do that');
+            Ext.data.JsonP.request({
+                url: 'http://' + localIP  + ':5000/call-user?=' + user.get('type'),
+                params: {
+                    user: user.get('type')
+                },           
+            });
         } else if (userAmbition === 2) {
             showToast('You can do better. I believe in you');
 
@@ -156,11 +124,11 @@ function onDeviceReady() {
 
     cordova.plugins.notification.local.on('click', function() {
         Ext.Ajax.request({
-            url: 'http://'+localIP+'/save-latte',
+            url: 'http://'+localIP+':5000/save-latte?user=' + user.get('type'),
         });
         window.alert('Good choice Dave! Transferred $5 to your Vanguard account');
     });
-    displayNotification();
+    
 
 }
 document.addEventListener("deviceready", onDeviceReady, false);
