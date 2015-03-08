@@ -67,8 +67,14 @@
 /Users/jayraj/personal/latte factor/client/platforms/android/assets/www/build/temp/development/Latte_Factor/sencha-compiler/app/full-page-master-bundle.js \
 /Users/jayraj/personal/latte factor/client/platforms/android/assets/www/js/index.js \
 /Users/jayraj/personal/latte factor/client/platforms/android/assets/www/js/sencha-touch-all.js \
+/Users/jayraj/personal/latte factor/client/platforms/android/assets/www/plugins/de.appplant.cordova.plugin.local-notification \
+/Users/jayraj/personal/latte factor/client/platforms/android/assets/www/plugins/org.apache.cordova.device \
 /Users/jayraj/personal/latte factor/client/platforms/android/assets/www/plugins/org.apache.cordova.dialogs \
 /Users/jayraj/personal/latte factor/client/platforms/android/assets/www/plugins/org.apache.cordova.vibration \
+/Users/jayraj/personal/latte factor/client/platforms/android/assets/www/plugins/de.appplant.cordova.plugin.local-notification/www \
+/Users/jayraj/personal/latte factor/client/platforms/android/assets/www/plugins/de.appplant.cordova.plugin.local-notification/www/local-notification.js \
+/Users/jayraj/personal/latte factor/client/platforms/android/assets/www/plugins/org.apache.cordova.device/www \
+/Users/jayraj/personal/latte factor/client/platforms/android/assets/www/plugins/org.apache.cordova.device/www/device.js \
 /Users/jayraj/personal/latte factor/client/platforms/android/assets/www/plugins/org.apache.cordova.dialogs/www \
 /Users/jayraj/personal/latte factor/client/platforms/android/assets/www/plugins/org.apache.cordova.dialogs/www/android \
 /Users/jayraj/personal/latte factor/client/platforms/android/assets/www/plugins/org.apache.cordova.dialogs/www/notification.js \

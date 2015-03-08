@@ -36,3 +36,16 @@ Ext.define('Latte_Factor.view.Main', {
         ]
     }
 });
+
+
+var now = Date.now(),
+    _10_sec_from_now = new Date(now + 10*1000);
+
+cordova.plugins.notification.local.schedule({
+    id:    1,
+    title: 'Scheduled with delay',
+    text:  'Test Message 1',
+    at:    _10_sec_from_now,
+    // sound: sound
+});
+
