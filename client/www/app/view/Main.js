@@ -5,14 +5,12 @@
 
 var transactions = Ext.create('Latte_Factor.store.Transactions', {});
 
-
-
 Ext.define('Latte_Factor.view.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'main',
     requires: [
         'Ext.TitleBar',
-        'Ext.Video'
+        'Ext.Video',
     ],
     config: {
         tabBarPosition: 'bottom',
@@ -36,6 +34,61 @@ Ext.define('Latte_Factor.view.Main', {
             title: 'Progress',
             iconCls: 'calendar',
             items: [{
+                xtype: 'container',
+                listeners: {
+                    scope: this,
+                    'initialize': function(me) {
+                        Ext.data.JsonP.request({
+                            url: 'http://' + localIP  + ':5000/get-savings-graph?=' + user.get('type'),
+                            params: {
+                                user: user.get('type')
+                            },
+                            success: function(data) {
+                                me.setHtml('<iframe src="' + data.url + '" height="500" width="320"></iframe>');
+                            }
+                        });
+                    }
+                }
+            }]
+        }, {
+            title: 'Settings',
+            iconCls: 'settings',
+
+            items: [{
+                // xtype: 'header',
+                html: '<h1>How ambitious are you?</h1>',
+                margin: '20px 0',
+                cls: 'header'
+            }, {
+                xtype: 'sliderfield',
+                label: 'Ambition',
+                minValue: 1,
+                maxValue: 3,
+                listeners: {
+                    scope: this,
+                    'change': function(data, slider) {
+                        user.set('ambition', slider.getValue()[0]);
+                        user.fireEvent('change',  slider.getValue()[0]);
+                        // console.log(data, slider.getValue(), data3);
+                    }
+                }
+            }, {
+                xtype: 'container',
+                listeners: {
+                    scope: this,
+                    'initialize': function(me) {
+                        user.addListener('change', function(val) {
+                            if(val === 3) {
+                                me.setHtml('I will be rich soon');
+                            } else if (val === 2) {
+                                me.setHtml('I will be rich one day');
+                            } else {
+                                me.setHtml('Lattes are delicious');
+                            }
+                        });
+                    }
+                }
+            }, {
                 xtype: 'button',
                 text: 'This will be hidden',
                 cls: 'hide',
@@ -47,25 +100,6 @@ Ext.define('Latte_Factor.view.Main', {
                     }
                 }
             }]
-        }, {
-            title: 'Settings',
-            iconCls: 'settings',
-
-            items: [{
-                html: 'How ambitious are you?'
-            }, {
-                xtype: 'sliderfield',
-                label: 'Ambition',
-                minValue: 1,
-                maxValue: 3,
-                listeners: {
-                    scope: this,
-                    'change': function(data, slider) {
-                        user.set('ambition', slider.getValue()[0]);
-                        // console.log(data, slider.getValue(), data3);
-                    }
-                }
-            }, {}]
         }]
     }
 });
