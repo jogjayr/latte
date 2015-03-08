@@ -4,8 +4,13 @@ from flask import request
 # from flask_cors import CORSimport datetime
 import re
 import requests
-
 from utils import jsonp
+import plotly.plotly as plotly
+from plotly.graph_objs import *
+#from datetime import datetime
+import datetime
+
+
 
 app = Flask(__name__)
 app.config.from_pyfile("config.ini")
@@ -140,11 +145,47 @@ def call_user():
               'text'      : PHONE_MESSAGE
               }
   
-  #r = requests.get('https://github.com/timeline.json')
   r = requests.get(url, params=payload)
   print r.json()
   
   return "We may have called the user by this point";
+
+
+#If save_latte isn't called at least once for the user first, this might crash
+@app.route("/get-savings-graph", methods=['GET'])
+def get_savings_graph():
+  user = request.args.get('user')
+  print "Generating graph for user: %s" % (user)
+  
+  if user is None: user = "normal"
+  print "Generating graph for user: %s" % (user)
+  
+  saveFile = user + "_saved"
+  
+  x = [];
+  y = [];
+  cumulative = 0;
+  with open(saveFile, "r") as myfile:
+    for line in myfile:
+      saveItem = eval(line)
+      cumulative += saveItem["amount"];
+      x.append(saveItem["datetime"])
+      y.append(cumulative)
+      #print line
+      #print "%f" % saveItem["amount"]
+      #savedSoFar += saveItem["amount"]
+  
+  
+  #x = [datetime(year=2013, month=10, day=04),
+  #    datetime(year=2013, month=11, day=05),
+  #    datetime(year=2013, month=12, day=06)]
+  
+  #data = Data([Scatter(x=x,y=[1, 3, 6])])
+  data = Data( [ Scatter(x=x,y=y) ] )
+  plot_url = plotly.plot(data, filename='python-datetime', auto_open=False)
+  return plot_url 
+  
+  
 
 
 @app.route("/")
