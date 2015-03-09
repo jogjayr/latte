@@ -8,7 +8,7 @@ import requests
 from utils import jsonp
 import plotly.plotly as plotly
 from plotly.graph_objs import Data, Scatter
-#from datetime import datetime
+from datetime import datetime
 import datetime
 import os.path
 
@@ -76,7 +76,9 @@ def can_afford():
     if checkingMatch:
       print account_name + ":" + str(account_balance);
       checkingBalance = account_balance
-  
+  for i in xrange(len(accounts)):
+
+    accounts[i]['days_ago'] = 
   if checkingBalance <= amount:
     print "They can not afford it"
     return "false"
@@ -102,7 +104,7 @@ def save_latte():
     
   print "user: %s wants to save $%s" % (user, amount)
   
-  i = datetime.datetime.now()
+  i = datetime.now()
   #print ("Current date & time = %s" % i)
   
   savedItem = {'datetime': i, 'amount': amount}
@@ -182,6 +184,7 @@ def get_savings_graph():
   
 @app.route("/get-savings-graph", methods=['GET'])
 @app.route("/get-investment-graph", methods=['GET'])
+@jsonp
 def get_investment_graph():
   user = request.args.get('user')
   if user is None: user = "poor"
@@ -221,7 +224,7 @@ def get_investment_graph():
   #user = "normal"
   saveFile = user + "_saved"
   
-  earliestDate = datetime.datetime.now()
+  earliestDate = datetime.now()
   
   savings = [];
   
@@ -245,7 +248,7 @@ def get_investment_graph():
   prices_stocks = stock_data["NAVs"]
   for bond_price in prices_bonds:
     stock_price = prices_stocks.pop(0);
-    thisDate  = datetime.datetime.strptime( bond_price["Date"] , "%m/%d/%Y" );
+    thisDate  = datetime.strptime( bond_price["Date"] , "%m/%d/%Y" );
     thisBondPrice  = float(bond_price["NAV"])
     thisStockPrice = float(stock_price["NAV"])
     thisBondTuple  = (thisDate, thisBondPrice)
@@ -319,7 +322,7 @@ def get_investment_graph():
   plot_url = plotly.plot(data_all, filename=plot_filename, auto_open=False);
   
   
-  return plot_url;
+  return jsonify({'url': plot_url})
       
   return r.text            
   return "Getting graph from: " + url + "for " + BOND_SYMBOL + " using " + api_token;

@@ -18,7 +18,8 @@ Ext.application({
     ],
 
     models: [
-        'Transaction'
+        'Transaction',
+        'User'
     ],
 
     stores: [
