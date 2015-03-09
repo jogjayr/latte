@@ -11,7 +11,7 @@ from plotly.graph_objs import Data, Scatter
 #from datetime import datetime
 import datetime
 import os.path
-
+from plotly.graph_objs import *
 
 app = Flask(__name__)
 app.config.from_pyfile("config.ini")
@@ -317,7 +317,13 @@ def get_investment_graph():
 
   plot_filename = user + "investment_plot"
   
-  plot_url = plotly.plot(data_all, filename=plot_filename, auto_open=False);
+  fig = Figure();
+  fig['data'] = data_all;
+  fig['layout'] = Layout(showlegend=False)
+  
+  #plot_url = plotly.plot(data_all, filename=plot_filename, auto_open=False, showlegend=False);
+  
+  plot_url = plotly.plot(fig, filename=plot_filename, auto_open=False);
   
   return jsonify({'url': plot_url })
   return plot_url;
