@@ -323,7 +323,7 @@ def get_investment_graph():
   
   fig = Figure();
   fig['data'] = data_all;
-  fig['layout'] = Layout(showlegend=False, legend=Legend(x=0,y=1))
+  fig['layout'] = Layout(showlegend=True, legend=Legend(x=0,y=1))
   
   #plot_url = plotly.plot(data_all, filename=plot_filename, auto_open=False, showlegend=False);
   
