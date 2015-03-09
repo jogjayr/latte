@@ -2,14 +2,14 @@ from flask import Flask
 from flask import jsonify
 from flask import request
 # from flask_cors import CORS
-import datetime
+
 import re
 import requests
 from utils import jsonp
 import plotly.plotly as plotly
 from plotly.graph_objs import Data, Scatter
 from datetime import datetime
-import datetime
+
 import os.path
 from plotly.graph_objs import *
 
@@ -76,7 +76,7 @@ def can_afford():
     if checkingMatch:
       print account_name + ":" + str(account_balance);
       checkingBalance = account_balance
-      
+
   # for i in xrange(len(accounts)):
   #   accounts[i]['days_ago'] = 
 
@@ -323,7 +323,7 @@ def get_investment_graph():
   
   fig = Figure();
   fig['data'] = data_all;
-  fig['layout'] = Layout(showlegend=False)
+  fig['layout'] = Layout(showlegend=False, legend=Legend(x=0,y=1))
   
   #plot_url = plotly.plot(data_all, filename=plot_filename, auto_open=False, showlegend=False);
   

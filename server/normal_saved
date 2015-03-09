@@ -1,6 +1,6 @@
-{'amount': 5, 'datetime': datetime.datetime(2015, 3, 8, 0, 49, 28, 339235)}
-{'amount': 5, 'datetime': datetime.datetime(2015, 3, 8, 0, 58, 5, 872863)}
-{'amount': 5, 'datetime': datetime.datetime(2015, 3, 8, 0, 58, 8, 497797)}
-{'amount': 5, 'datetime': datetime.datetime(2015, 3, 8, 0, 58, 10, 40763)}
-{'amount': 5, 'datetime': datetime.datetime(2015, 3, 8, 0, 58, 10, 344420)}
-{'amount': 5, 'datetime': datetime.datetime(2015, 3, 8, 0, 58, 10, 576224)}
+{'amount': 5, 'datetime': datetime(2015, 3, 8, 0, 49, 28, 339235)}
+{'amount': 5, 'datetime': datetime(2015, 3, 8, 0, 58, 5, 872863)}
+{'amount': 5, 'datetime': datetime(2015, 3, 8, 0, 58, 8, 497797)}
+{'amount': 5, 'datetime': datetime(2015, 3, 8, 0, 58, 10, 40763)}
+{'amount': 5, 'datetime': datetime(2015, 3, 8, 0, 58, 10, 344420)}
+{'amount': 5, 'datetime': datetime(2015, 3, 8, 0, 58, 10, 576224)}
